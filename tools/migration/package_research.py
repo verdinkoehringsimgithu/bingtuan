@@ -32,7 +32,9 @@ def main():
  ignore=ROOT/'.gitignore'
  with ignore.open('a',encoding='utf-8') as f:
   f.write('\n# Lossless evidence moved into TransferData; run restore_research.py.\n')
+  f.write('/combat_numerical_paradigms/**/results/\n')
   for row in manifest:
-   f.write('/'+row['path'].replace('[','[[]').replace(']','[]]')+'\n')
+   if 'results' not in Path(row['path']).parts:
+    f.write('/'+''.join('[[]' if c=='[' else '[]]' if c==']' else c for c in row['path'])+'\n')
  print(json.dumps(dict(files=len(files),original_bytes=sum(x['bytes'] for x in manifest),archive_bytes=zpath.stat().st_size,parts=len(parts))),flush=True)
 if __name__=='__main__':main()

@@ -56,4 +56,6 @@ python -m venv combat_numerical_paradigms/v11_research/.venv
 
 开始前`git pull --ff-only`；结束关闭正在写配置的工具，用`git status`检查并一起提交Assets、meta、标签、Resources配置和源码，再push。恢复后的旧研究大记录由迁移清单忽略，避免重复上传；新增记录另建受控目录或分卷。
 
-迁移不含Unity缓存、Python虚拟环境、旧独立Release构建、重复备份、APK及历史拆包冷库。外部技能工具默认历史拆包技能表未迁移，可打开已有导出CSV或生成新表；当前Unity使用Resources内正式数据。原地图独立导出备份未替代当前工程，原说明保留在docs及根README后半部。
+迁移不含Unity缓存、Python虚拟环境、旧独立Release构建、重复人物备份、APK及历史拆包冷库。外部技能工具默认历史拆包技能表未迁移，可打开已有导出CSV或生成新表；当前Unity使用Resources内正式数据。
+
+地图工具单独保留`HexTerrainStudio_v1.0.unitypackage`及`HexTerrainStudio_Backup_20261023`源码素材，原说明在docs及根README后半部。需要地图系统时按说明导入包；它独立于正式战斗场景。

@@ -12,6 +12,8 @@
 !/CHARA/
 !/CHARA_SLICED/
 !/CHARA_NEW_RAW_PACKS/
+!/HexTerrainStudio_Backup_20261023/
+!/HexTerrainStudio_v1.0.unitypackage
 !/Super Pixel Effects Megapack 1/
 !/tools/
 !/TransferData/
@@ -77,4 +79,5 @@
 /LegionBattle/LegionBattle/UserSettings/*
 !/LegionBattle/LegionBattle/UserSettings/*Config*.json
 /tools/migration/staging/
+/tools/build/
 /TransferData/*.zip
