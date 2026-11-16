@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "archive_files": 132697,
+  "content_checked_files": 82,
+  "content_checked_bytes": 2086648239,
+  "parts": 70,
+  "all_parts_sha256_verified": true,
+  "whole_archive_sha256_verified": true
+}
