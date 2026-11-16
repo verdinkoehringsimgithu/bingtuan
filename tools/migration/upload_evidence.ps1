@@ -1,3 +1,4 @@
+param([int]$StartPart=1)
 $ErrorActionPreference='Stop'
 $root=Split-Path (Split-Path $PSScriptRoot -Parent) -Parent
 Set-Location -LiteralPath $root
@@ -25,7 +26,7 @@ foreach($part in $manifest.parts)
 $gitOptions=@('-c',"safe.directory=$root",'-c','gc.auto=0','-c','pack.window=0','-c','pack.threads=2','-c','core.compression=1','-c','http.version=HTTP/1.1','-c','http.postBuffer=157286400')
 & git @gitOptions add -- .gitignore TransferData/manifest.json tools/migration/upload_evidence.ps1
 if($LASTEXITCODE -ne 0){throw 'Metadata staging failed'}
-for($offset=0;$offset -lt $manifest.parts.Count;$offset++)
+for($offset=$StartPart-1;$offset -lt $manifest.parts.Count;$offset++)
 {
     $end=$offset+1
     $paths=@();for($i=$offset;$i -lt $end;$i++){$paths+=('TransferData/'+$manifest.parts[$i].name)}
@@ -37,7 +38,13 @@ for($offset=0;$offset -lt $manifest.parts.Count;$offset++)
         & git @gitOptions commit -q -m "Preserve research evidence parts $($offset+1)-$end of $($manifest.parts.Count)"
         if($LASTEXITCODE -ne 0){throw 'Evidence commit failed'}
     }
-    & git @gitOptions push origin main
-    if($LASTEXITCODE -ne 0){throw 'Evidence push failed; previous successful batches are retained'}
+    $uploaded=$false
+    for($attempt=1;$attempt -le 3;$attempt++)
+    {
+        & git @gitOptions push origin main
+        if($LASTEXITCODE -eq 0){$uploaded=$true;break}
+        if($attempt -lt 3){Start-Sleep -Seconds (3*$attempt)}
+    }
+    if(!$uploaded){throw "Evidence push failed; resume with -StartPart $($offset+1)"}
     Write-Output "Uploaded evidence parts through $end / $($manifest.parts.Count)"
 }
