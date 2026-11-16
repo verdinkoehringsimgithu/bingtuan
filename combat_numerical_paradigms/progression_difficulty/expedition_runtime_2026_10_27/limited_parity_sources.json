@@ -1,0 +1,56 @@
+{
+  "cases": 2400,
+  "profiles": [
+    [
+      0.6,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      0.7,
+      0.8,
+      0.5,
+      0.9
+    ],
+    [
+      0.6,
+      0.7,
+      0.8,
+      0.5,
+      0.9
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      0.25,
+      1.0
+    ],
+    [
+      0.25,
+      0.3,
+      0.4,
+      0.5,
+      0.6
+    ]
+  ],
+  "stages": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+  ],
+  "sources": {
+    "combat_numerical_paradigms\\progression_difficulty\\runtime_parity_cases.json": "1797ea4babcb954bfeab3b1dc488d552ebb709d777ab7512bee11673c5725ed2",
+    "combat_numerical_paradigms\\roster_research\\roster_core.py": "4692afaac934c51df1b1b457ee2c239c89b5121aea4bf65cea7e2602d2bd043a",
+    "combat_numerical_paradigms\\natural_research\\natural_core.py": "7ceeb0180e0f4876c451808572c680ee2b13e97f4f08d7e7ac770cc229a20fba",
+    "test_30man_combat_simulator.py": "d82477b368cea5994053bcee99a618d560135e6a5195926afe26f78aa91ba75e",
+    "combat_numerical_paradigms\\progression_difficulty\\expedition_runtime_2026_10_27\\generate_limited_parity.py": "06e9001fa59b2d6794d6597d2e9e24052c7b1c392ceb93c4535e7a00c4f99fda"
+  },
+  "random_protocol": "one uniform per fallback owner; shared tape for Python and C#"
+}

@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "portraits": 1229,
+  "people": 1213,
+  "label_checks": 3698,
+  "opening_battle_cases": 1920,
+  "opening_max_relative_error": 4.3972906764897086e-15,
+  "previous_battle_cases": 2880,
+  "unity_checks": 71,
+  "expedition_checks": 135,
+  "lifecycle_checks": 73,
+  "baseline_battles": 37500,
+  "overall_win_rates": [
+    53.9,
+    56.1,
+    53.9,
+    46.7,
+    41.7,
+    47.7
+  ],
+  "spread_percentage_points": 14.4,
+  "protected_unchanged": {
+    "Assets/Resources/EffectTimingConfig.json": true,
+    "Assets/Scenes/BattleScene.unity": true,
+    "Assets/Resources/FormationConfig.json": true,
+    "Assets/Characters/character_bond_labels.json": true
+  },
+  "database_only_traits_changed": true,
+  "production_mechanisms": [
+    "sailor",
+    "merchant"
+  ]
+}

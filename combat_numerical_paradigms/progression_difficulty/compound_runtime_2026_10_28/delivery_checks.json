@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "new_battle_cases": 3360,
+  "new_actions": 63244,
+  "maximum_relative_error": 2.9976021664879227e-15,
+  "previous_battle_cases": 18720,
+  "total_battle_cases": 22080,
+  "new_invariant_checks": 35,
+  "total_invariant_checks": 238,
+  "unity_checks": {
+    "unity_validation.json": 117,
+    "tactical_validation.json": 114,
+    "augmentation_validation.json": 132,
+    "amplification_validation.json": 132,
+    "support_validation.json": 153,
+    "evasion_validation.json": 142,
+    "identity_validation.json": 71,
+    "expedition_validation.json": 135,
+    "label_validation.json": 3698
+  },
+  "lifecycle_checks": 73,
+  "baseline_battles": 37500,
+  "overall_win_rates": [
+    53.8,
+    55.8,
+    53.8,
+    46.3,
+    43.5,
+    46.8
+  ],
+  "spread_percentage_points": 12.3,
+  "protected_unchanged": {
+    "Assets/Characters/character_bond_labels.json": true,
+    "Assets/Scenes/BattleScene.unity": true,
+    "Assets/Resources/EffectTimingConfig.json": true,
+    "Assets/Resources/FormationConfig.json": true,
+    "Assets/Characters/CharacterDatabase.asset": true
+  },
+  "added_mechanisms": [
+    "maid",
+    "farmer",
+    "adventurer"
+  ],
+  "total_ported_mechanisms": 23
+}

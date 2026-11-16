@@ -1,0 +1,15 @@
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[3];B=ROOT/'LegionBattle/LegionBattle/Assets/Scripts/Battle'
+def change(name,old,new):
+    path=B/name;s=path.read_text(encoding='utf-8-sig');assert old in s,(name,old);path.write_text(s.replace(old,new),encoding='utf-8')
+change('BattleTroop.cs','public CombatTacticalRules tacticalBonds;','public CombatTacticalRules tacticalBonds;\n        public CombatCompoundRules compoundBonds;')
+change('BattleTroop.cs','augmentationBonds,tacticalBonds);','augmentationBonds,tacticalBonds,compoundBonds);')
+change('BattleSceneRequest.cs','public CombatTacticalRules leftTacticalBonds,rightTacticalBonds;','public CombatTacticalRules leftTacticalBonds,rightTacticalBonds;\n        public CombatCompoundRules leftCompoundBonds,rightCompoundBonds;')
+change('BattleSceneRequest.cs','public CombatTacticalSummary leftTacticalBonds,rightTacticalBonds;','public CombatTacticalSummary leftTacticalBonds,rightTacticalBonds;\n        public CombatCompoundSummary leftCompoundBonds,rightCompoundBonds;')
+change('BattleSceneFlow.cs','rightTacticalBonds=request.rightTacticalBonds==null?null:request.rightTacticalBonds.Clone()};','rightTacticalBonds=request.rightTacticalBonds==null?null:request.rightTacticalBonds.Clone(),\n                leftCompoundBonds=request.leftCompoundBonds==null?null:request.leftCompoundBonds.Clone(),\n                rightCompoundBonds=request.rightCompoundBonds==null?null:request.rightCompoundBonds.Clone()};')
+change('BattleSceneController.cs','request.leftTacticalBonds,request.rightTacticalBonds);','request.leftTacticalBonds,request.rightTacticalBonds,request.leftCompoundBonds,request.rightCompoundBonds);')
+change('BattleSceneController.cs','leftTacticalBonds=runtime.teams[0].TacticalBonds.Snapshot(),rightTacticalBonds=runtime.teams[1].TacticalBonds.Snapshot(),','leftTacticalBonds=runtime.teams[0].TacticalBonds.Snapshot(),rightTacticalBonds=runtime.teams[1].TacticalBonds.Snapshot(),\n                leftCompoundBonds=runtime.teams[0].CompoundBonds.Snapshot(),rightCompoundBonds=runtime.teams[1].CompoundBonds.Snapshot(),')
+change('BattleInspectionManager.cs','CombatTacticalRules rightTactical = null)','CombatTacticalRules rightTactical = null, CombatCompoundRules leftCompound = null, CombatCompoundRules rightCompound = null)')
+change('BattleInspectionManager.cs','leftTroop.tacticalBonds=leftTactical==null?null:leftTactical.Clone();rightTroop.tacticalBonds=rightTactical==null?null:rightTactical.Clone();','leftTroop.tacticalBonds=leftTactical==null?null:leftTactical.Clone();rightTroop.tacticalBonds=rightTactical==null?null:rightTactical.Clone();\n            leftTroop.compoundBonds=leftCompound==null?null:leftCompound.Clone();rightTroop.compoundBonds=rightCompound==null?null:rightCompound.Clone();')
+change('BattleTurnReport.cs','public double coinsEarned;','public double coinsEarned;\n        public bool maidCast;\n        public string fruitEvent;')
+change('BattleEngine.cs','coinsEarned=action.coinsEarned','coinsEarned=action.coinsEarned,maidCast=action.maidCast,fruitEvent=action.fruitEvent')

@@ -1,0 +1,16 @@
+{
+  "audit_coverage.py": "81af69d423e1274904f6451e57355b99fbfd839ed74744bde9357302396c6d4f",
+  "generate_interactions.py": "4070918ada9dcd0bfbafea522ea4fad8b6889ab61334a69b4b5fd932a71429a8",
+  "prepare_harness.py": "80a9127b27dfb87cdab92cdab4d2c3ceda9e88d8466435c7ad5d19135c6c3617",
+  "InteractionParityHarness.cs": "472c7d45e1879af8deae7227f8d829f5e0036b18b0fb1b9b1616cd8bd8736aa4",
+  "run_checks.ps1": "367d707dffae50565f8f7473e31b5efbf4569602abbdb8b94c159994b8142d2f",
+  "verify_delivery.py": "e58c525e263b85038380dbfaf71a08591db92e70f6854f04d5e1acded675a689",
+  "coverage_before.json": "bd8c9e4c215b0f44412fd4f9f04ceb4b28dd97faf7bbd3bc7f3b022b7dd3a3cc",
+  "coverage_after.json": "599da0b1ad4412d031e9038a6c66e0728de94e860c235b61ad349440a8ff4675",
+  "interaction_parity.json": "b11c2ec09234175a4cfadf549c37570ad5a6eb539c1bfc67710ca5c82c7a758e",
+  "COVERAGE.md": "f37539d135e9ef222f345ab3dd00ae95004d758fd05cab09a0b71a92931b29b0",
+  "coactivation_cases.json": "e0b95f9be9eca6192cb9817dbd5d316f5f09583a898b4e3b1e514779e2477b14",
+  "delivery_checks.json": "b8705b2bd7757abaeaa4220e7ebe25efca0e69d94b2dff83fb118311aaa012c9",
+  "README.md": "c7a3ec16642e8efb3319bb0ac1fcf1c583cf7e708435c673345a6a795a7dd77f",
+  "SKILL_SUPPLY_GUIDANCE.md": "20851f9953461f35e65589ea6934bfdd8dc0aa13a8b705be77a1016f29384bdf"
+}

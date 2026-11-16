@@ -1,0 +1,29 @@
+{
+  "sync_time": "2026-10-14T17:07:11.799370",
+  "tool_validation": {
+    "passed": true,
+    "checks": 27545,
+    "families": 63,
+    "variants": 467,
+    "layered_variants": 19,
+    "error": null
+  },
+  "lifecycle_validation": {
+    "passed": true,
+    "lifecycle_checks": 73,
+    "navigation_owner": "caller"
+  },
+  "synchronized_files": [
+    "Assets/Scripts/Battle/EffectTimingConfig.cs",
+    "Assets/Scripts/Battle/BattlePresentationTimeline.cs",
+    "Assets/Scripts/Battle/BattleCharacterPreview.cs",
+    "Assets/Scripts/Battle/FormationConfig.cs",
+    "Assets/Scripts/Battle/BattleInspectionManager.cs",
+    "Assets/Scripts/Battle/BattleEffectTestModule.cs",
+    "Assets/Scripts/Battle/BattleEffectTestProbe.cs",
+    "Assets/Editor/BattleEffectBuildPreparation.cs",
+    "Assets/Scripts/Battle/SkillEffectMatcher.cs"
+  ],
+  "formation_updated": true,
+  "user_config_preserved": true
+}

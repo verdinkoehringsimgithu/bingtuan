@@ -1,0 +1,77 @@
+{
+  "samples": 24000,
+  "families_used": 63,
+  "families_available": 63,
+  "variants_used": 427,
+  "variants_available": 467,
+  "invalid": 0,
+  "top5_share": 0.27470833333333333,
+  "family_entropy": 5.38782264344946,
+  "colors": {
+    "red": 4518,
+    "violet": 7507,
+    "white": 1607,
+    "yellow": 3603,
+    "blue": 3120,
+    "orange": 1602,
+    "green": 1178,
+    "pink": 177,
+    "black": 490,
+    "brown": 19,
+    "rainbow": 163,
+    "gray": 16
+  },
+  "unused": [],
+  "top": [
+    {
+      "key": "fanfx1_spellcast_A",
+      "title": "禁锢波纹眩晕星星",
+      "count": 2174
+    },
+    {
+      "key": "fx2_slash",
+      "title": "刀剑圆斩",
+      "count": 2047
+    },
+    {
+      "key": "fanfx2_claw",
+      "title": "流光裂空爪斩",
+      "count": 835
+    },
+    {
+      "key": "fx3_bite",
+      "title": "狂暴利齿咬合",
+      "count": 826
+    },
+    {
+      "key": "fx3_toon_impact",
+      "title": "重压气泡爆裂",
+      "count": 711
+    },
+    {
+      "key": "fanfx2_fire_spell",
+      "title": "冲天烈焰火柱",
+      "count": 706
+    },
+    {
+      "key": "impfx1_toon_impact_C",
+      "title": "圆形气浪复合闪光",
+      "count": 693
+    },
+    {
+      "key": "impfx1_quick_impact_B",
+      "title": "极速锐芒闪光",
+      "count": 692
+    },
+    {
+      "key": "fx2_claw",
+      "title": "利爪撕裂",
+      "count": 687
+    },
+    {
+      "key": "impfx1_quick_impact_A",
+      "title": "迅捷轻微气闪",
+      "count": 687
+    }
+  ]
+}

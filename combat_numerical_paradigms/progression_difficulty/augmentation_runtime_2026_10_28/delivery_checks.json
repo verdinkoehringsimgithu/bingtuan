@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "new_battle_cases": 2880,
+  "new_actions": 53880,
+  "maximum_relative_error": 1.0635936575909e-13,
+  "previous_battle_cases": 12480,
+  "new_invariant_checks": 38,
+  "unity_checks": {
+    "unity_validation.json": 132,
+    "amplification_validation.json": 132,
+    "support_validation.json": 153,
+    "evasion_validation.json": 142,
+    "identity_validation.json": 71,
+    "expedition_validation.json": 135,
+    "label_validation.json": 3698
+  },
+  "lifecycle_checks": 73,
+  "baseline_battles": 37500,
+  "overall_win_rates": [
+    53.4,
+    55.6,
+    54.1,
+    46.8,
+    42.7,
+    47.4
+  ],
+  "spread_percentage_points": 12.9,
+  "protected_unchanged": {
+    "Assets/Characters/character_bond_labels.json": true,
+    "Assets/Scenes/BattleScene.unity": true,
+    "Assets/Resources/EffectTimingConfig.json": true,
+    "Assets/Resources/FormationConfig.json": true,
+    "Assets/Characters/CharacterDatabase.asset": true
+  },
+  "added_mechanisms": [
+    "engineer",
+    "sage",
+    "thief",
+    "killer"
+  ],
+  "total_ported_mechanisms": 15
+}

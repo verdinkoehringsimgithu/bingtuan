@@ -1,0 +1,153 @@
+--- baseline/CombatRuntime.cs
++++ D:\123\LegionBattle\LegionBattle\Assets\Scripts\Battle\CombatRuntime.cs
+@@ -51,8 +51,14 @@
+         public int selected = -1;
+         public bool hit, skillSelected;
+         public List<CombatStatus> statuses = new List<CombatStatus>();
+-        public CombatTeam(List<CombatMember> roster)
+-        {
++        private readonly CombatPersistentLimits persistentLimits;
++        public double UnrestrictedMaxBP { get; private set; }
++        public double DamageReceived { get; private set; }
++        public double MinimumBPRatio { get; private set; } = 1;
++        public double DamageExposure { get { return Math.Min(1, DamageReceived / maxBP); } }
++        public CombatTeam(List<CombatMember> roster, CombatPersistentLimits limits = null)
++        {
++            persistentLimits = (limits ?? new CombatPersistentLimits()).Clone();
+             if (roster == null || roster.Count < 1 || roster.Count > 30) throw new ArgumentException("Roster requires 1..30 members");
+             members = roster; int top = 0;
+             foreach (var m in roster)
+@@ -64,7 +70,11 @@
+                 maxBP += m.bp + item.bp;
+                 for (int i = 0; i < 4; i++) stats[i] += m.stats[i] + item.stats[i] + (item.kind == "owner_stats" ? m.stats[i] * item.value : 0);
+             }
++            // Match native roster aggregation. Floating sum noise must not break an initiative tie.
++            maxBP = Math.Round(maxBP, 6);
++            for (int i = 0; i < 4; i++) stats[i] = Math.Round(stats[i], 10);
+             if (top > 4 || maxBP <= 0) throw new ArgumentException("At most four top equipment items per team");
++            UnrestrictedMaxBP = maxBP; maxBP *= persistentLimits.bp;
+             bp = maxBP; uses = new int[roster.Count]; casts = new int[roster.Count]; failed = new int[roster.Count]; locks = new bool[roster.Count];
+         }
+         public bool Dead { get { return bp <= .0001; } }
+@@ -72,7 +82,13 @@
+         public double Effective(int axis)
+         {
+             double factor = 1; foreach (var s in statuses) if (s.kind == "stats") factor *= 1 - s.value;
+-            return stats[axis] * factor;
++            return stats[axis] * factor * persistentLimits.Stat(axis);
++        }
++        internal void RecordDamage(double before, double net)
++        {
++            // Count actual BP removed after shields, before lethal recovery; exclude overkill.
++            DamageReceived += Math.Min(Math.Max(0, before), net);
++            MinimumBPRatio = Math.Min(MinimumBPRatio, Math.Max(0, bp) / maxBP);
+         }
+         public double Output()
+         {
+@@ -89,7 +105,7 @@
+         public void Macro(double alpha, double beta, double gamma = 0, double delta = 0, double theta = 0, double mu = 1)
+         {
+             if (alpha <= 0 || beta < 0 || gamma < 0 || gamma > 1 || delta < 0 || mu < 0) throw new ArgumentException("Invalid encounter parameters");
+-            maxBP *= alpha; bp = maxBP; attack = beta / alpha; absorption = gamma; regen = delta; frequency = mu; stats[2] = Math.Max(0, stats[2] + theta);
++            maxBP *= alpha; UnrestrictedMaxBP *= alpha; bp = maxBP; attack = beta / alpha; absorption = gamma; regen = delta; frequency = mu; stats[2] = Math.Max(0, stats[2] + theta);
+         }
+     }
+     public sealed class CombatAction
+@@ -123,7 +139,9 @@
+         {
+             double net = Math.Max(0, amount) * (1 - defender.absorption);
+             double saved = Math.Min(defender.shield, net); defender.shield -= saved; net -= saved;
++            double before = defender.bp;
+             defender.bp = clamp ? Math.Max(0, defender.bp - net) : defender.bp - net;
++            defender.RecordDamage(before, net);
+             if (defender.Dead)
+                 for (int i = 0; i < defender.members.Count; i++)
+                     if (defender.members[i].item.kind == "death_lock" && !defender.locks[i])
+--- baseline/BattleTroop.cs
++++ D:\123\LegionBattle\LegionBattle\Assets\Scripts\Battle\BattleTroop.cs
+@@ -12,6 +12,7 @@
+         public int maxBP, currentBP, shieldBP;
+         public int speed, defense, dodge, authority;
+         public double alpha = 1, beta = 1, gamma, delta, theta, mu = 1;
++        public CombatPersistentLimits persistentLimits;
+         // Editor reset controls retain these fields; runtime status lives in CombatTeam.
+         public List<BattleBuffInstance> buffs = new List<BattleBuffInstance>();
+         public int exhaustTurns, resistLethalCount;
+@@ -37,7 +38,7 @@
+                     stats = new double[] { m.dodge, m.defense, m.speed, m.authority },
+                     skill = m.skills.Count == 0 ? null : m.skills[0].combat, item = m.equipment });
+             }
+-            var team = new CombatTeam(roster); team.Macro(alpha, beta, gamma, delta, theta, mu); return team;
++            var team = new CombatTeam(roster, persistentLimits); team.Macro(alpha, beta, gamma, delta, theta, mu); return team;
+         }
+         public void Synchronize(CombatTeam team)
+         {
+--- baseline/BattleSceneRequest.cs
++++ D:\123\LegionBattle\LegionBattle\Assets\Scripts\Battle\BattleSceneRequest.cs
+@@ -15,6 +15,7 @@
+         public bool fixedEncounter=true,maxLevel,topEquipment,autoPlay=true,autoLeave;
+         public string difficulty="hard";
+         public CombatMacro enemyMacro;
++        public CombatPersistentLimits playerLimits;
+         public bool useSeed;
+         public int seed;
+     }
+@@ -25,6 +26,9 @@
+         public BattleSceneOutcome outcome;
+         public int rounds,winnerTroopId;
+         public double leftBP,leftMaxBP,rightBP,rightMaxBP;
++        public double leftUnrestrictedMaxBP,rightUnrestrictedMaxBP;
++        public double leftDamageReceived,rightDamageReceived,leftMinimumBPRatio,rightMinimumBPRatio;
++        public double leftDamageExposure,rightDamageExposure;
+         public int[] leftCasts,rightCasts;
+         public string error;
+     }
+--- baseline/BattleSceneFlow.cs
++++ D:\123\LegionBattle\LegionBattle\Assets\Scripts\Battle\BattleSceneFlow.cs
+@@ -20,7 +20,8 @@
+             var snapshot=new BattleSceneRequest {stage=request.stage,left=request.left==null?null:BattleSceneController.Clone(request.left),right=request.right==null?null:BattleSceneController.Clone(request.right),
+                 leftName=request.leftName,rightName=request.rightName,leftFlow=request.leftFlow,rightFlow=request.rightFlow,fixedEncounter=request.fixedEncounter,
+                 maxLevel=request.maxLevel,topEquipment=request.topEquipment,autoPlay=request.autoPlay,autoLeave=request.autoLeave,difficulty=request.difficulty,
+-                useSeed=request.useSeed,seed=request.seed,enemyMacro=request.enemyMacro==null?null:JsonUtility.FromJson<CombatMacro>(JsonUtility.ToJson(request.enemyMacro))};
++                useSeed=request.useSeed,seed=request.seed,enemyMacro=request.enemyMacro==null?null:JsonUtility.FromJson<CombatMacro>(JsonUtility.ToJson(request.enemyMacro)),
++                playerLimits=request.playerLimits==null?null:request.playerLimits.Clone()};
+             var handle=new BattleSceneSession {Request=snapshot};Active=handle;
+             driver=new GameObject("BattleSceneFlow").AddComponent<BattleSceneFlowDriver>();
+             UnityEngine.Object.DontDestroyOnLoad(driver.gameObject);
+--- baseline/BattleSceneController.cs
++++ D:\123\LegionBattle\LegionBattle\Assets\Scripts\Battle\BattleSceneController.cs
+@@ -51,7 +51,7 @@
+             CombatMacro macro=request.enemyMacro;
+             if(request.right==null&&request.fixedEncounter)
+             {var enemy=BattleRuntimeCatalogue.Encounter(request.stage,request.difficulty);macro=new CombatMacro {alpha=enemy.alpha,beta=enemy.beta};}
+-            presentation.StartBattleFromRosters(Clone(left),Clone(right),macro,request.useSeed?(int?)request.seed:null,request.leftName,request.rightName);
++            presentation.StartBattleFromRosters(Clone(left),Clone(right),macro,request.useSeed?(int?)request.seed:null,request.leftName,request.rightName,request.playerLimits);
+             presentation.battleEngine.OnTurnCompleted+=session.Report;
+             started=true;session.Ready();
+             if(request.autoPlay&&session.Result==null)StartCoroutine(Play());
+@@ -93,6 +93,10 @@
+             var engine=presentation.battleEngine;var runtime=engine.Runtime;
+             var result=new BattleSceneResult {initialized=true,rounds=runtime.Round,winnerTroopId=engine.winnerTroopId,
+                 leftBP=Math.Max(0,runtime.teams[0].bp),leftMaxBP=runtime.teams[0].maxBP,rightBP=Math.Max(0,runtime.teams[1].bp),rightMaxBP=runtime.teams[1].maxBP,
++                leftUnrestrictedMaxBP=runtime.teams[0].UnrestrictedMaxBP,rightUnrestrictedMaxBP=runtime.teams[1].UnrestrictedMaxBP,
++                leftDamageReceived=runtime.teams[0].DamageReceived,rightDamageReceived=runtime.teams[1].DamageReceived,
++                leftMinimumBPRatio=runtime.teams[0].MinimumBPRatio,rightMinimumBPRatio=runtime.teams[1].MinimumBPRatio,
++                leftDamageExposure=runtime.teams[0].DamageExposure,rightDamageExposure=runtime.teams[1].DamageExposure,
+                 leftCasts=(int[])runtime.teams[0].casts.Clone(),rightCasts=(int[])runtime.teams[1].casts.Clone(),
+                 outcome=interrupted&&!engine.isBattleOver?BattleSceneOutcome.Interrupted:engine.isCensored?BattleSceneOutcome.Unresolved:
+                     engine.winnerTroopId==1?BattleSceneOutcome.LeftWon:engine.winnerTroopId==2?BattleSceneOutcome.RightWon:BattleSceneOutcome.Draw};
+--- baseline/BattleInspectionManager.cs
++++ D:\123\LegionBattle\LegionBattle\Assets\Scripts\Battle\BattleInspectionManager.cs
+@@ -790,10 +790,11 @@
+             StopAllCoroutines(); isCombatRunning = false; autoCombat = false;
+         }
+ 
+-        public void StartBattleFromRosters(List<BattleMember> left, List<BattleMember> right, CombatMacro enemyMacro = null, int? seed = null, string leftName = "我方", string rightName = "敌方")
++        public void StartBattleFromRosters(List<BattleMember> left, List<BattleMember> right, CombatMacro enemyMacro = null, int? seed = null, string leftName = "我方", string rightName = "敌方", CombatPersistentLimits playerLimits = null)
+         {
+             StopBattlePlayback();
+             leftTroop = new BattleTroop(1,leftName); rightTroop = new BattleTroop(2,rightName);
++            leftTroop.persistentLimits = playerLimits == null ? null : playerLimits.Clone();
+             leftTroop.InitializeFromMembers(left); rightTroop.InitializeFromMembers(right);
+             if(enemyMacro!=null)
+             { rightTroop.alpha=enemyMacro.alpha;rightTroop.beta=enemyMacro.beta;rightTroop.gamma=enemyMacro.gamma;rightTroop.delta=enemyMacro.delta;rightTroop.theta=enemyMacro.theta;rightTroop.mu=enemyMacro.mu; }

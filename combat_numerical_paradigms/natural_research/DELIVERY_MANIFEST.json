@@ -1,0 +1,2380 @@
+{
+  "saved_at": "2026-10-13T10:51:55.698641+08:00",
+  "status": "research_experiments_and_design_guides_delivered",
+  "experience_targets_not_all_met": true,
+  "protocol_executions": 12029472,
+  "full_telemetry_battles": 36000,
+  "player_owner_records": 630000,
+  "stages": 6,
+  "flows": 6,
+  "top_cap": 4,
+  "archived_root_generator": "Frozen tested numerical source and its research executable; live parallel animation changes preserved in the workspace.",
+  "sqlite_checkpoints": "Kept in the workspace; final result files and reproducible jobs are bundled.",
+  "files": [
+    {
+      "path": "SkillGenerator.cs",
+      "bytes": 130971,
+      "sha256": "ee681ff826131bce54d122876f225da69d4b9e9863b0c7b4114e7bde43ba0c76"
+    },
+    {
+      "path": "SkillGenerator.exe",
+      "bytes": 70144,
+      "sha256": "4c01bd34c39fdb893c65687cda66995c41bedc40f8040eb4f09f5c55fb1657f4"
+    },
+    {
+      "path": "combat_numerical_paradigms/01_COMBAT_CORE_MATHEMATICAL_MODEL.md",
+      "bytes": 8693,
+      "sha256": "b5f727c935388b2c5ae0baa24ad8cc0e29987715343e9af94203848f49e59429"
+    },
+    {
+      "path": "combat_numerical_paradigms/02_PROGRESSION_STAGES_AND_BUDGETS.md",
+      "bytes": 4648,
+      "sha256": "2e9b2cc368df5fb8dcec2be36bdc3e88ecd1aa5c3dd74252aaa2d85b28a13f1c"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/CHECKPOINT_2026-10-12.md",
+      "bytes": 11857,
+      "sha256": "5be81ee8d1e1cdfdeee77ab37ada3cafa1ad4ad2b54dd0885bc6fce27c684f22"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/CHECKPOINT_2026-10-13.md",
+      "bytes": 5084,
+      "sha256": "5573404353489e024188fbe801bdd7c6226d6db33c545199107cfa366b454de2"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/CHECKPOINT_MANIFEST_2026-10-12.json",
+      "bytes": 14496,
+      "sha256": "4dcaa2a6c1b83ed8959b13a8a5e5f23f0baf5821375cfddecec27949e43bdf7d"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/DESIGN_SPECIFICATION.md",
+      "bytes": 16279,
+      "sha256": "bb6ff8e768243ad7130d15e2d11213aa2dd8674004434f53df59bb2470f0c5f7"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/GeneratorBridge.cs",
+      "bytes": 1752,
+      "sha256": "b2580947f871cc57fb3d426af0640b2cf41c98bd6c4015d3c7c6ef305bd79714"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/README.md",
+      "bytes": 4020,
+      "sha256": "e008e338f7728e9b9bdfbbf218db8ca114e3847e51fa51b6e18886a4c6cb197f"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/advanced_study.py",
+      "bytes": 15290,
+      "sha256": "111d49aaf4a492e336e28e2b8e14fa1e038865cb376b75e4c8e558488ff07572"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/build_report.py",
+      "bytes": 24564,
+      "sha256": "dcd96083525588cac7ef2e21d631e4578710cb040c80bc2d6a0f95aa008efd60"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/calibrate_counter.py",
+      "bytes": 2006,
+      "sha256": "f38ca23ccfd3675a225b886761516bc66582d0faa7c11313794afa4e13fd7c0b"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/calibrate_equipment.py",
+      "bytes": 2607,
+      "sha256": "64bbb9d74375c5f7c7b7a461bed209eec8184e356cbc695b861b120f4d1afaf9"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/calibrate_unique.py",
+      "bytes": 3019,
+      "sha256": "211a9d288ec63c211006db5355ab9886766b1ea9081a869cc5d07b9141b1437f"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/derive_design_tables.py",
+      "bytes": 7084,
+      "sha256": "34254f0e3e3031cd9bf896a9fa7101dcd08cc4e30f2e57a9d975d47c45fb2d10"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/embedding_audit.py",
+      "bytes": 3501,
+      "sha256": "16d54f32bb214f0cd1914a70a1ec062b1b9d9db0f6c450ccd604a3cc7221c35c"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/enrich_discovery.py",
+      "bytes": 4018,
+      "sha256": "3dbbf2d659a57774444b7a5370de8f1ca1268b6afddf6ef31842e25d6f54fe83"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/export_catalog.ps1",
+      "bytes": 1355,
+      "sha256": "d3316119fc5b12d29ecc71bc76e9495e8bbf85e4ef13fb566ce71bd5f1dc869b"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/natural_core.py",
+      "bytes": 7545,
+      "sha256": "7ceeb0180e0f4876c451808572c680ee2b13e97f4f08d7e7ac770cc229a20fba"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/package_delivery.py",
+      "bytes": 3251,
+      "sha256": "ee2a36681ee78cb6334918df59cad5d20b4f71d01f825d526e8f99507071eb23"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/plot_research.py",
+      "bytes": 3772,
+      "sha256": "bd021c4ffc692f6d9f6d66386a11e36c8629512e9983f81b7a2a5a6991043736"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/reachability.py",
+      "bytes": 10947,
+      "sha256": "180f9e1f6bd7fa576650d8025598e433dc346c159e872f99ff9a331efa5f150e"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/refine_delivery.py",
+      "bytes": 5967,
+      "sha256": "bffecfb9ada9eedd88de3a607c1146efdecef675f6f9786db2944dca9cbe5467"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/requirements.txt",
+      "bytes": 94,
+      "sha256": "4f5fbadbde4fd94927bfa5c34a04b0e244f20154cb949e3abf05e5b1fd5dde11"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/advanced_manifest_curves.json",
+      "bytes": 436,
+      "sha256": "38d9f2c02f3aed2ef5cbd2fb3f8fd45a70963a1227eb9e45267e8ddb57cbb853"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/advanced_manifest_mainc.json",
+      "bytes": 434,
+      "sha256": "2c193faf092e2a65d176302d1946f6495f857d75d04ec5eaeb0970eca79e6fbe"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/advanced_manifest_paths.json",
+      "bytes": 436,
+      "sha256": "c3f0c07b981d5378e7b50dd881253e31ac30ebcd0a4d2a49007dd2ca070c5462"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/advanced_manifest_unique.json",
+      "bytes": 435,
+      "sha256": "8bde0b28dd45b7f5b365ae6b688d26bcfe6c6c619f335154aefe4af44abf4c2e"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/advanced_model_validation.json",
+      "bytes": 129,
+      "sha256": "3574cb71205cb467918e3427f9c0c8ee197d6ff908a9d243e7965ef4833f778e"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/candidate_reachability.csv.gz",
+      "bytes": 822157,
+      "sha256": "30c603cc6929111930b3b3d09b7d1dbe01029c0f6ea921da0fe1ad27b66b20f8"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/candidate_reachability_summary.csv",
+      "bytes": 57117,
+      "sha256": "f42fd97488d6a770657c38ad3e3de9e0c24501a202114c7bbef8aff8617262d6"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/catalog_before.json",
+      "bytes": 5376353,
+      "sha256": "59fa281136520e648dd61a5dbd01f3c62ace3cf4ce90e4a281ba6e7dba57d8af"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/catalog_current.json",
+      "bytes": 5382263,
+      "sha256": "5b175b614157a408abbfbf82a79e3cdceddbbaa9c48ab00f1f08110922b42aab"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/catalog_final_test.json",
+      "bytes": 5381946,
+      "sha256": "d69c2c42ce00f3a239446664247d4e204dae4b5028a5c1d8e862c4de127c1562"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/catalog_holdout.json",
+      "bytes": 5378807,
+      "sha256": "c5f21e7b8586ba80b96d3aa746ac640f6f536552c8f30e9b8971f3d323a507b3"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/checkpoint_validation.json",
+      "bytes": 431,
+      "sha256": "5bda96990749a3f585842035871b5ad36dbcddff90725bffe55e8f8c4b4db5f3"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/common_stat_ranges.csv",
+      "bytes": 10383,
+      "sha256": "03bd871cbd7312600fe2422e4760d317e4d5707fd038cda4203270e5dc7a379d"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/common_stat_scan.csv",
+      "bytes": 1127376,
+      "sha256": "fc7fd37c0f995b0c4036e8f8fd81949438c22f62d9f76c322ac54d6cb453db45"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/concurrent_source_audit.json",
+      "bytes": 398,
+      "sha256": "96ab6b6c83d5e922f21b7f154c86376dea7e54ab63b9b332e619780a48ef86fb"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/continuation_manifest.json",
+      "bytes": 436,
+      "sha256": "123b0ed52bf53f7319642fbe840b9e0c88c1e00cbd8c7626fd8f2f30ac904a5e"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/contour_manifest.json",
+      "bytes": 435,
+      "sha256": "55ff2aa18b1a13a6e697420b8620b4533dd0812455081c28a1126e59726fc7f7"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/counter_balanced_fresh_holdout.csv",
+      "bytes": 23120,
+      "sha256": "c828291e3f89778513a3d001dbf5281fe24871391355502fa621c8e1d238c951"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/counter_calibration_manifest.json",
+      "bytes": 200,
+      "sha256": "4909b33973c54a426bcd77dc6b11f674ffbfafe8d6e416197e12a9e60a46dccd"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/counter_dose_validation.csv",
+      "bytes": 235048,
+      "sha256": "f3ce77786f124de934b5f29bc6ce40ca151ba7d3263271ff5e517c1f5a58bef9"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/counter_dose_validation_manifest.json",
+      "bytes": 435,
+      "sha256": "1827c094c3fd442b5d58c7940238449ecced7af299fdda3c244acc1238033326"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/crossflow_versatility.csv",
+      "bytes": 371807,
+      "sha256": "8ab59a9acdd999b4e4d35575fb4ee85c4421598b7b4c26ad2fbc3dd82dedac0f"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/d2_fresh_catalog_holdout.csv",
+      "bytes": 13400,
+      "sha256": "cdcc56b187a92ac01b0bb61dda8dc28863f6ba404a247dd8e336b85d4fa85e6d"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/d2_validation_candidates.csv",
+      "bytes": 14322,
+      "sha256": "86de3f82fbb084f15df80813f8a4a80c600dcfe8aa2a54bfe0a9c597846c8707"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/d2_validation_progress.csv",
+      "bytes": 14322,
+      "sha256": "86de3f82fbb084f15df80813f8a4a80c600dcfe8aa2a54bfe0a9c597846c8707"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/d2_validation_refinement.csv",
+      "bytes": 546949,
+      "sha256": "f078dee85afd40ca5d9cd917186f44f5a7808a591f948a5752c4efd68d15396f"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/d2_validation_trace_progress.csv",
+      "bytes": 546949,
+      "sha256": "f078dee85afd40ca5d9cd917186f44f5a7808a591f948a5752c4efd68d15396f"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/delivery_validation.json",
+      "bytes": 1158,
+      "sha256": "4ef426db70ee9b5a6258cf37216af69aa7c0204705cdf5811ad3ce5d1947cf95"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/design_report_manifest.json",
+      "bytes": 233,
+      "sha256": "2fd711f9f60d8b72446585e90d5ed9c9eccb262f3bd18646364a7f10816a3a5e"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/difficulty_candidates.csv",
+      "bytes": 20274,
+      "sha256": "f209d661221ef36e9c98ccb61fb16034b4d0cbef14d62086cadd5cd3e4014209"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/difficulty_delivery_candidates.csv",
+      "bytes": 20054,
+      "sha256": "5e90e76928d304c2cfa3a9a3d01720113f222c75c4927bfec4d250ef7c08a95e"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/difficulty_delivery_holdout.csv",
+      "bytes": 51497,
+      "sha256": "03f51e48361974556d6ca65380ad572e562d66bcd4de0cffba978b12ab4ed35b"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/difficulty_holdout.csv",
+      "bytes": 52626,
+      "sha256": "3f2bdd78b724355a2ecaf3e1ed75b4921f9655a7ec5a4124c2621e232761b24a"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/difficulty_joint_acceptance.csv",
+      "bytes": 52285,
+      "sha256": "df2f533f6d85b252110f2518cb6c61b37dc17388b55b03cd4176fbccfab0c617"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/difficulty_stage_summary.csv",
+      "bytes": 1364,
+      "sha256": "179cd83b2a3592a70432ff31c59fcd55a110669528e95b433c05092174841edf"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/per_stage_discovery.csv",
+      "bytes": 382,
+      "sha256": "7c33ec301a988b604aad68450d5d0a48ceb464ee398da0459656a676fc9ed001"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S1_cluster_assignments.csv.gz",
+      "bytes": 4118408,
+      "sha256": "4bcebee656b4c912b8dfdb10831469f881351735f23479410c51e057de6de55c"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S1_cluster_centroids.csv",
+      "bytes": 6231,
+      "sha256": "552d2783bf5010634ca31490ff51d45c9b74aa06e89b1d28113b66b741975f08"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S1_correlations.csv",
+      "bytes": 229355,
+      "sha256": "fb5ff551b0ab66e6f22cd381cb911a4eb979b66d96dae877e07399184f9cb2e4"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S1_models.joblib",
+      "bytes": 111047,
+      "sha256": "8188c332e8cd91b1bfb4980f7b393bee24f3909573b12ac98c95afa0feaff282"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S1_pca_loadings.csv",
+      "bytes": 229195,
+      "sha256": "7510efdfd4df951d30cc972c286f1229c4964f59947fa66a7a55bad4e60ee349"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S1_pca_variance.csv",
+      "bytes": 4585,
+      "sha256": "98432da1ccc62c4927e03e8923651ed1ceed209157f138112006f3353b903d8b"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S2_cluster_assignments.csv.gz",
+      "bytes": 4393096,
+      "sha256": "cb47523829690c0869f76943ef509aa5c0e2d632fe1362bb18a869dc72054b9a"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S2_cluster_centroids.csv",
+      "bytes": 6702,
+      "sha256": "18e58ba81e1cc647daae789c2e71b67d4f5dde6c8ac3cc373c9ae9d936134aad"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S2_correlations.csv",
+      "bytes": 274155,
+      "sha256": "14adf894ce751fb118a5e3db16fb74fdf2e46870b77e3821e63e07c7fe43e04e"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S2_models.joblib",
+      "bytes": 129319,
+      "sha256": "d23d6831a29fcde3bed2b079d74b7f144980582f2f612359a984f41dafb02f46"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S2_pca_loadings.csv",
+      "bytes": 275475,
+      "sha256": "80752af075d92fbb9ebb5131a1acab65564c13788e623acb4310a182c51de7a0"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S2_pca_variance.csv",
+      "bytes": 5036,
+      "sha256": "fd8d0b1cf8933c3d3221f7321a976b8ec11400a3692c11927364d8187310c501"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S3_cluster_assignments.csv.gz",
+      "bytes": 4590734,
+      "sha256": "b89aa9d5d6b0b351e86435f3b4ac38691ebd90dcddd13ebf3184b58458f6bc0e"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S3_cluster_centroids.csv",
+      "bytes": 7105,
+      "sha256": "01d36e69b5932760d680fe4fa8634f688b200e04424abead6d6f77eaa645efba"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S3_correlations.csv",
+      "bytes": 293171,
+      "sha256": "78e20c013917ee1b14dcdd32f7cb5e283a3bcab17c7cd2742f4fb76893b31ece"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S3_models.joblib",
+      "bytes": 137079,
+      "sha256": "665dff9b272cd30b1825cc8f5c241c197ec258083bd45daeb6d93b2e67a3fd75"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S3_pca_loadings.csv",
+      "bytes": 294678,
+      "sha256": "d93cf2ca34d7a464e2e0677e71970c28fea52b15d5fa40dc9bf09473d16b8b1f"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S3_pca_variance.csv",
+      "bytes": 5229,
+      "sha256": "11329455c80a162d257c93dfcea8ab9d62888374b6f7fc51f10326630459e618"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S4_cluster_assignments.csv.gz",
+      "bytes": 4622046,
+      "sha256": "eb018f79e7f36e4d0dd095d5ad169f9acb75a8f9ab2d3ec851e47a1562235a12"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S4_cluster_centroids.csv",
+      "bytes": 7028,
+      "sha256": "a9a6ef5a89ca9f1be0860d5704c0029d244e290b9dd1b3e9f3c630c7157ae079"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S4_correlations.csv",
+      "bytes": 295243,
+      "sha256": "e6e226017b4ea004513cbd3e9fee77f185f59f4d84b18643fd975e8c265b8293"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S4_models.joblib",
+      "bytes": 137047,
+      "sha256": "a2ad67bebd26645b0af00a97c9ba5506de6e04896cd50d133312a8f6ef59fe94"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S4_pca_loadings.csv",
+      "bytes": 294442,
+      "sha256": "2222e5966cf0b00d6837acc75897c2cec02377cf4ffc6bce5e03d69ce28a0b31"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S4_pca_variance.csv",
+      "bytes": 5211,
+      "sha256": "67cd97230968a1fd47209f52b57d8c634a6b983f5fe80fba0c0c062c2dec38ed"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S5_cluster_assignments.csv.gz",
+      "bytes": 4716817,
+      "sha256": "20b1dd95768862a2a41ea5a9e1ee281a60abe3435baef3023b612a879a93efa0"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S5_cluster_centroids.csv",
+      "bytes": 7056,
+      "sha256": "41635d3171d0aef95b135a871ab12c120562537fe80848940a53e41e49f8ee33"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S5_correlations.csv",
+      "bytes": 294069,
+      "sha256": "06b029d8fb3b2830f291e4023a3154277d21e5e7482838ed14d255f540d751be"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S5_models.joblib",
+      "bytes": 137047,
+      "sha256": "d7d7209db5e04cf2a4cb6c54a4fb4768fb5eaf467858c2194192ae923a98a4d6"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S5_pca_loadings.csv",
+      "bytes": 294390,
+      "sha256": "a3e2354bde6f6e25123e8a8cc87ce2a2b288a04f4e66733c5dfdd7cd322ba594"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S5_pca_variance.csv",
+      "bytes": 5170,
+      "sha256": "43c58a82fc2db396e481020440865e63b21b70a5f0245cc4ccaad261510b6a7c"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S6_cluster_assignments.csv.gz",
+      "bytes": 4709192,
+      "sha256": "0e47e88df32345d173956eb05774ee725429d184667b28e1b3acceb77b86f884"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S6_cluster_centroids.csv",
+      "bytes": 14446,
+      "sha256": "ea290a2b4b7bb42671fd57764b359317ae392150c7717784c170a378caff4c67"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S6_correlations.csv",
+      "bytes": 294581,
+      "sha256": "26465a642dff48e291d7fcf4c657d49973073e6852d071d15d6c29a0882a502a"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S6_models.joblib",
+      "bytes": 138135,
+      "sha256": "02f52bfa7b28178a2a799099726778b7dc69c28f3d205a5025e20ff3782567a5"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S6_pca_loadings.csv",
+      "bytes": 294441,
+      "sha256": "4399aa25e1ff4ae24d68c07affbba67a0ca4f1f8477f00f7933bb93ca2c24708"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/stage_S6_pca_variance.csv",
+      "bytes": 5251,
+      "sha256": "52db75b85c8d317b2f0f918fd1943f016baa44bfcba0062545a1834967b6bb0c"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/discovery_before_trajectory_enrichment/telemetry_features.csv.gz",
+      "bytes": 28615670,
+      "sha256": "2e6bd77e1380df663a716cdc227f806dea2e1c0a06bf27142138dea491e22e1d"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/embedding_audit_manifest.json",
+      "bytes": 266,
+      "sha256": "252ce7d0f11afef99f29df4087111fd9c8afc6910baa73d06fcdd8b1841276a9"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/embedding_mechanism_fresh_holdout.csv",
+      "bytes": 14132,
+      "sha256": "03a4ce01f48db74af2f3880b902f3ffd167a524d78d10048578fec8a1d23ade9"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/enemy_absolute_delivery.csv",
+      "bytes": 16672,
+      "sha256": "6ed16a988770a7d2a6f020e078c215dcd0e0fb39fae76b09711d7edeff5270c0"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/enemy_delivery_policy.json",
+      "bytes": 59006,
+      "sha256": "d4bdb4f9df86244cae34b38016e835c7640ed07f3201a518d550c007c83093f4"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/enemy_fixed_slice_contours.csv",
+      "bytes": 1092278,
+      "sha256": "3d503cdb12d88fb0a639b255446184e1b17d73cf0361f4ff9fc491f88cb8ea7c"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/enemy_global_scan.csv",
+      "bytes": 11694352,
+      "sha256": "19140995f1a5310354787bc6e256290f409e1b3093e4f46356eb5f8ef0fd9831"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/enemy_joint_refinement.csv",
+      "bytes": 3333174,
+      "sha256": "7f0b220b46965a7d08124c2915afa92eb565a87851abea446098236b15881ea2"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/equipment_calibration_manifest.json",
+      "bytes": 259,
+      "sha256": "395dbd338142770562d1cddcb6c187d44cef7d2f214b42a3ce919e82b170ed9e"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/equipment_calibration_validation_manifest.json",
+      "bytes": 435,
+      "sha256": "4c438dd8b633b4f2563d799bb4352020a93b959fb927822e097bad50260e217f"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/equipment_operating_candidates.csv",
+      "bytes": 5665,
+      "sha256": "1a6ee42d47d3abb8127af4d87cbc5c6659bde6b98a5543b92a61240389bd3af4"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/equipment_operating_fresh_holdout.csv",
+      "bytes": 22011,
+      "sha256": "7c8b982a9b80b0581e2044265c506065f9cf4f7e4196e209729cf89116b3a640"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/equipment_operating_validation.csv",
+      "bytes": 206230,
+      "sha256": "67e2a21d95d5e16b716b20c03c83bc5da7a9b95378edcd31f61ef9b64905a2cb"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/equipment_owner_exposure.csv",
+      "bytes": 10695,
+      "sha256": "658157ab9d99310277bd4aa4e02512d47ccb1893422cc31cb4f64e72fe159129"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/equipment_stage_summary.csv",
+      "bytes": 491,
+      "sha256": "28f8385a16ea35bd0e4983d07e44422178eac1c460d06a31c302f6daca5d6d63"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/evidence_status.json",
+      "bytes": 1093,
+      "sha256": "b08c23c019cf985ff19ed3a9d2206ab000ccb60aeec398ddd9b7daf35e2a6ccf"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/execution_protocol.csv",
+      "bytes": 1334,
+      "sha256": "95cb4afd8bbf1abae21acc709a68536ed4bfe64342a6bf2f445efc74e8aecdd8"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/experiment_manifest.json",
+      "bytes": 306,
+      "sha256": "0ea58be389084aba854aed806b9e713f7801dbe5db922451f812564759c8af6e"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/figures/centroids_S1.png",
+      "bytes": 62909,
+      "sha256": "fbd1a9391ab1d42b41882c4603a7926241a2d9ff45a0787a4e845d3defe190ca"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/figures/centroids_S2.png",
+      "bytes": 63296,
+      "sha256": "c58e5d242424f01cc6cbf9b449d4b83612a4a0d0e7528c3f8bbf4d9102a9e53b"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/figures/centroids_S3.png",
+      "bytes": 64328,
+      "sha256": "25710b81749abaa42e2ea12fa54d561e1a6473b6884bcd30dd58e35fe3dbd552"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/figures/centroids_S4.png",
+      "bytes": 57382,
+      "sha256": "654289bccf0c7a87c098cb4aef06779a11d510b95677fb472d715ddf85a5bc94"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/figures/centroids_S5.png",
+      "bytes": 55904,
+      "sha256": "09643234827bc0ef9c0a6b8188bf752f67576725aece74587390368a1ae8dab7"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/figures/centroids_S6.png",
+      "bytes": 62532,
+      "sha256": "6fbaa2a2c3dc2d90dae1b88a8a37dd08c008523bdbd0701a44ed0f5ce1d184d7"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/figures/contours_S1_turns.png",
+      "bytes": 126961,
+      "sha256": "e26d0cd7a54b0055d59974f658e3bbd3bdf9b69b0f2cc2ad3f35a85a48483986"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/figures/contours_S1_wr.png",
+      "bytes": 130960,
+      "sha256": "4bae13e8ac68ad254e3165b6e2bdcc66d37c66b80faa3a7753574936abe43fa7"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/figures/contours_S2_turns.png",
+      "bytes": 127890,
+      "sha256": "0d5daa3f7949d61892956eac7a8aeee66dadcf7dc2b46183ae605d325d34f4a2"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/figures/contours_S2_wr.png",
+      "bytes": 126738,
+      "sha256": "10b4d990985fa405728a18af5baaf73f6cf0731ed1d382287c4f00183184a217"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/figures/contours_S3_turns.png",
+      "bytes": 127566,
+      "sha256": "f725029328c1de6224781233d04629fb1c528437a01f94692c25e83cc3a72c05"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/figures/contours_S3_wr.png",
+      "bytes": 129430,
+      "sha256": "2713453d4db1fea828fe66f59b313129b6004052e71050a7b20e8962cd25fb9c"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/figures/contours_S4_turns.png",
+      "bytes": 107880,
+      "sha256": "9ae61cc8041c9dd967169e124d109abf94252ce5ca4d54fbfc3ded118aecf128"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/figures/contours_S4_wr.png",
+      "bytes": 123863,
+      "sha256": "f10319970b2b677568fb95ac39c514544d455acc16ba7ef42c2c5d6dc1ad5f0e"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/figures/contours_S5_turns.png",
+      "bytes": 126501,
+      "sha256": "d22203da8995d0c5bbf1ba4e067ff52a3ef32eeead36c5535f8b8bf30c9c997d"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/figures/contours_S5_wr.png",
+      "bytes": 136557,
+      "sha256": "cfa80974069bff1425d755bd901e234cc1525c5e31f67b829875f79ad561900b"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/figures/contours_S6_turns.png",
+      "bytes": 125888,
+      "sha256": "e6c2c060b8e989d8647e0b5c03344b0bd1f2108ea5cc49356663381f582e9b55"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/figures/contours_S6_wr.png",
+      "bytes": 132706,
+      "sha256": "b2399fd1ae6ded0afc39b7198f10733fdc6bed7e8a16b7018a048b987e967881"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/figures/discovery_S1.png",
+      "bytes": 130264,
+      "sha256": "c40365ed8a42624fe24ffff83b06148be767ab7a76f7d6c1f57da91e1a9b3728"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/figures/discovery_S2.png",
+      "bytes": 131054,
+      "sha256": "e650091d9895033019596f61912d1be6d27cf1ad7fc4e3382a33ff7982fdd3f1"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/figures/discovery_S3.png",
+      "bytes": 132560,
+      "sha256": "6abef22abdf671be52d82564cf40bf237a9ab1a4420f60c7d9d06dd70fc88abc"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/figures/discovery_S4.png",
+      "bytes": 123551,
+      "sha256": "efbda1f8535c010a2f2eab71ae19b81c1aaf4f2780ac461f5c143b06d6782cd1"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/figures/discovery_S5.png",
+      "bytes": 119079,
+      "sha256": "d965d8ee7c3bcfaea5fe54f376b6b57c662b6f6eaa9e5dc12e7f67a941594892"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/figures/discovery_S6.png",
+      "bytes": 124363,
+      "sha256": "13a9600bc6ed4e790b1e345105f2fb3da9112808fd1f53c999c9a5849e94fa72"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/foundation_manifest.json",
+      "bytes": 306,
+      "sha256": "0ea58be389084aba854aed806b9e713f7801dbe5db922451f812564759c8af6e"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/four_top_holdout.csv",
+      "bytes": 33142,
+      "sha256": "10fea024c4a40af2e5e1dd1a47a2962e16666b27e6295584b2e71338255f8068"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/four_top_loadouts.csv",
+      "bytes": 4550,
+      "sha256": "90f52cd10287d247f57a9a0712e26143a86b3d2b7988cb89010113547460b493"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/four_top_scarcity.csv",
+      "bytes": 62289,
+      "sha256": "9410191a2393d0dae329e0d393fec29df3fd7ec20774d0e760dd6d020f6c9c29"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/four_top_search.csv",
+      "bytes": 3652666,
+      "sha256": "3161f617d4594caa88b7f9f68a8a582a5e403636f50575d354048424f4a71b73"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/four_top_strength_holdout.csv",
+      "bytes": 73814,
+      "sha256": "0748bb6592a7e1b5ec6c4dedd23a196fce439f2de9800a6f3e3a2183803aa514"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/generator_patch_audit.json",
+      "bytes": 321,
+      "sha256": "23c076271a0a96d90a335df8112d5a283f007546e0e1888bee149d582676f7ea"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/heterogeneous_holdout.csv",
+      "bytes": 167811,
+      "sha256": "fa5f04c055bd9bd4d9eabf5c1d30252419823af93e883dd58ce00261d1642ebe"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/mainc_five_demands.csv",
+      "bytes": 42921,
+      "sha256": "7cec20c62f13670e0f2c29d385818acb7f21aa7379f16ac9cf4d648825453f0f"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/mainc_mechanism_scan.csv",
+      "bytes": 1284894,
+      "sha256": "81ed57d271cf70538083518038a40f89df7dbab7367e77bef4f56254f3177070"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/mainc_stat_derivatives.csv",
+      "bytes": 58892,
+      "sha256": "d870a53e20200dde5e0a4507bcefbe64b91ade336aa8e2d62aefc036a612df3c"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/mainc_stat_scan.csv",
+      "bytes": 434126,
+      "sha256": "25dc5a5218321dfc8663bd59645d1d1b48d56dbb4e7dc206b4d3caec3ba1e79e"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/mechanism_response_scan.csv",
+      "bytes": 3151574,
+      "sha256": "7cffef2b4b44f3c6aaffa0cf42d070065ae60061b48865a29e31908e5f899e37"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/model_validation.json",
+      "bytes": 448,
+      "sha256": "85f3b1e45a783e26db4d5ff6700dc40c20993e18a8767cf6b1ffe448c8f8c77f"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/native_37500_regression.txt",
+      "bytes": 1327,
+      "sha256": "25190886eea98bcade1bf4a57d277b03e94ac7a85dcbf4898792d65e5e111495"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/natural_player_configs.json",
+      "bytes": 659389,
+      "sha256": "9aca1bd4c53850105d70c0858000cf6dde4aac5f611a5af81862434343b09d4c"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/ordinary_coverage_bounds.csv",
+      "bytes": 5152,
+      "sha256": "7df24464e03247030b88fc29aa132b16d9c52b846c380a3acd868c84d503015f"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S1_C_I_D3.jsonl.gz",
+      "bytes": 76741,
+      "sha256": "4a7601d182a71778aee5089150d82464796a716905d218593aa1605aceca8595"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S1_C_I_D4.jsonl.gz",
+      "bytes": 95726,
+      "sha256": "671d7035a1232d09a62f04bbda7bcae0812100b9db22f1ad9b8744394f467171"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S1_C_R_D3.jsonl.gz",
+      "bytes": 79423,
+      "sha256": "b1c58a6748ce7a5e84ec7b69259daf19510358a1972613fb9ebcd4c697b1a000"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S1_C_R_D4.jsonl.gz",
+      "bytes": 104405,
+      "sha256": "0d055d9173ea8046ab33f3e96ee7c65d1c7d07bc9dd10e44c26f56a658d0f5c1"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S1_M_C_D3.jsonl.gz",
+      "bytes": 76173,
+      "sha256": "021d534b50b7d4de1bc58c58fd49b822b8f9d049b45a60fd0127d68e293c5c8f"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S1_M_C_D4.jsonl.gz",
+      "bytes": 81600,
+      "sha256": "2ffb514123043e95826df905080e8225382f2832cb9d89833c3e489a67467ee6"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S1_M_I_D3.jsonl.gz",
+      "bytes": 71425,
+      "sha256": "00de42d4cda60276b5d4c9e40db842f3705f84f6236de1083a6a4d4c93fbb551"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S1_M_I_D4.jsonl.gz",
+      "bytes": 91855,
+      "sha256": "26faa5ce92c48ece013b1909d4de866fa5bdb7bb3680ba5a5946624fb3245b36"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S1_M_R_D3.jsonl.gz",
+      "bytes": 76417,
+      "sha256": "8fe468f62dbca58badb76663cdbf16015f99a02d8accdc519194287b4cd695ad"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S1_M_R_D4.jsonl.gz",
+      "bytes": 95399,
+      "sha256": "7aa349748bd55f1f1ea0b8e9e9b6a2f5e840f4336dc198366eab9fe9aff65c01"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S1_R_I_D3.jsonl.gz",
+      "bytes": 90125,
+      "sha256": "f379862b50321ed92861bc4fed1459f79a760e9619d9dcda30d805992eae2298"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S1_R_I_D4.jsonl.gz",
+      "bytes": 106125,
+      "sha256": "feb60c286d35c12d57b873ba6bd9dff638a863fc1753324711e78f8d0c9cbcf9"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S2_C_I_D3.jsonl.gz",
+      "bytes": 157799,
+      "sha256": "2bcc67e8ec94674f0250cb7c621722b81daff79858bd634f328a23f65bc426bb"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S2_C_I_D4.jsonl.gz",
+      "bytes": 180214,
+      "sha256": "09396f72db630dee203c1ec3f61edd69994576110453d794c6943f253dfe21c6"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S2_C_R_D3.jsonl.gz",
+      "bytes": 170870,
+      "sha256": "43ac1e880195a396ec1160382be760e9e2e65f2e799123bcbb824185c945d6db"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S2_C_R_D4.jsonl.gz",
+      "bytes": 209824,
+      "sha256": "beeec57182200885a0f9f3297757d881a0e08e30fd08f39b65ace9f7ba6452b5"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S2_M_C_D3.jsonl.gz",
+      "bytes": 151813,
+      "sha256": "8dcc3ba14994be2f2f7afe8131516895319676279fb9127368733723663da213"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S2_M_C_D4.jsonl.gz",
+      "bytes": 182551,
+      "sha256": "a88b5fea264d93a71552ecfcebbcd02770c47315a075ba2669bcd6d420e53b5f"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S2_M_I_D3.jsonl.gz",
+      "bytes": 157013,
+      "sha256": "a030ba4eb51f1222c472beb48f54e685b4b5f3c1a55d2cc6d4a67e15fdc04beb"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S2_M_I_D4.jsonl.gz",
+      "bytes": 188977,
+      "sha256": "0817c3f34f5f3f8816c0ab625c6880064fae8f8e6694d71161b55fc04dc9f5d3"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S2_M_R_D3.jsonl.gz",
+      "bytes": 167185,
+      "sha256": "db55f7649cc5554c54a0ab597d84c6a3834a9a01d28661daf23d065044cbe732"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S2_M_R_D4.jsonl.gz",
+      "bytes": 192826,
+      "sha256": "accd117a8de1fc39abe78209fb547ca7c05bdd97350f656f67364548c84fbf6d"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S2_R_I_D3.jsonl.gz",
+      "bytes": 190160,
+      "sha256": "24f9850bec425c25c2cef651ee30adb7b997b3eca6b1a967dbf988ced7e265df"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S2_R_I_D4.jsonl.gz",
+      "bytes": 216119,
+      "sha256": "7c4d65bda6230d32f3966b5fd3ae9c76fe6bd58c8ef6aa9d3758b1326e817625"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S3_C_I_D3.jsonl.gz",
+      "bytes": 258896,
+      "sha256": "043c0366c4f91415f8654f62c38b11bb98d7d3fd46414ec07b02a09397915bc3"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S3_C_I_D4.jsonl.gz",
+      "bytes": 264869,
+      "sha256": "5b2b0286fc4f776b32fd8e73ecbb5e54b0fd74e30a592381dd006c72c87a536b"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S3_C_R_D3.jsonl.gz",
+      "bytes": 241470,
+      "sha256": "aef1341e88a3a20777f2d41ed687cc6f4246ffa842ea293625e27aeaad3287f7"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S3_C_R_D4.jsonl.gz",
+      "bytes": 287261,
+      "sha256": "3bdaf69a6e0320e62eb26f345cb2fce4e174de0807b5f3aa966d61b65f3d1689"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S3_M_C_D3.jsonl.gz",
+      "bytes": 240751,
+      "sha256": "ade28cca88ad5c4e9dc95aacfb0a1c02ec5addecc7019b049becb497ff17a434"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S3_M_C_D4.jsonl.gz",
+      "bytes": 272881,
+      "sha256": "0cff64418418967bed53e449797711e37298a91ec01d7d6a9f609cc8a71251a1"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S3_M_I_D3.jsonl.gz",
+      "bytes": 266273,
+      "sha256": "8b6d339f2b4b93f43265b633676978f64280ea88046d94a2b8edca948bcfe995"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S3_M_I_D4.jsonl.gz",
+      "bytes": 272418,
+      "sha256": "44fbbe31f2cc80c21a409b623d9c138bc9906c1ef17326d6ea2ada0f409eeb75"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S3_M_R_D3.jsonl.gz",
+      "bytes": 255149,
+      "sha256": "f4249578ba506f9b26f456228de65b98c6a02cfaf94c42e222a1e840c65406ff"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S3_M_R_D4.jsonl.gz",
+      "bytes": 292739,
+      "sha256": "2eaab7e821ed7f81711618c9218356632e7dfa09d39870bb95a1b0b54c1fda62"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S3_R_I_D3.jsonl.gz",
+      "bytes": 287943,
+      "sha256": "b2ed845c809c619f4ed30be0fc5cf5c1eb167ff6c765a5cde05a36f921f9a3b9"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S3_R_I_D4.jsonl.gz",
+      "bytes": 318467,
+      "sha256": "b2825c1090653edda95ae3fcad014d3205580b506d7aa6da189dffba68da6b63"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S4_C_I_D3.jsonl.gz",
+      "bytes": 353593,
+      "sha256": "010c9ac0a43e32daa36426d1dcd4b5a60697fec18ad1b0d1f31f555784069157"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S4_C_I_D4.jsonl.gz",
+      "bytes": 382225,
+      "sha256": "fbfd1f33bbdd3056bdc756861015f6a67f6b595ec1af5662ed740cc44f88794e"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S4_C_R_D3.jsonl.gz",
+      "bytes": 390838,
+      "sha256": "27a21597ceadeb17e995fb84565542cb0de60d38e4295eeb51244a759fc6c45c"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S4_C_R_D4.jsonl.gz",
+      "bytes": 386676,
+      "sha256": "77ddc5c4d59a165660bbe7b5dd9dcb1ddb4bc9084a685d2c5a282102d5f46ca4"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S4_M_C_D3.jsonl.gz",
+      "bytes": 343418,
+      "sha256": "5bc2488da63132b29362b2b621406b7b6f2998d487df38876bbdec0a9e46ebc8"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S4_M_C_D4.jsonl.gz",
+      "bytes": 372195,
+      "sha256": "73ff3618ce4e33abfdae08c4ed167fae0ba461586dc2080e1149c684af0b6711"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S4_M_I_D3.jsonl.gz",
+      "bytes": 351776,
+      "sha256": "4fa96485423df0badb1abffcce4501f449f26f043b1d062f66c793a0f0623256"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S4_M_I_D4.jsonl.gz",
+      "bytes": 372664,
+      "sha256": "7df88aaaa447cf363c4c8831e8d5ad3e979a0a723cf7c1eac82fd3e22df36846"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S4_M_R_D3.jsonl.gz",
+      "bytes": 353854,
+      "sha256": "8dcb1cfee8a869c49cfa36d110a7204d54845683d7ddafe7a74bf4434f3e5286"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S4_M_R_D4.jsonl.gz",
+      "bytes": 385665,
+      "sha256": "76f75141c08996ff09abd735b414fb1ee1531c5b45c26ac43ec5f5ae1d1f2b7d"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S4_R_I_D3.jsonl.gz",
+      "bytes": 349902,
+      "sha256": "df9dcb894770424bbb8256290e14f53d47b113375d16b3a5d74df787fc6cc6d6"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S4_R_I_D4.jsonl.gz",
+      "bytes": 363232,
+      "sha256": "f928f7e4344f96a4edfb4a6abfa175d859764d8c5e2cef0e5ed7eb3800b9ef0c"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S5_C_I_D3.jsonl.gz",
+      "bytes": 463709,
+      "sha256": "c329bd84dd65ba26efe21385d74951e17a299cc00609b75821b3905271ea8c19"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S5_C_I_D4.jsonl.gz",
+      "bytes": 494195,
+      "sha256": "12698d4be5ec63601ad54c173f3c7b4b0c22ca73744be78eb6a2b44d315d6849"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S5_C_R_D3.jsonl.gz",
+      "bytes": 464221,
+      "sha256": "d5a18409cf5779966399ede54afcba150585c0a3a452ef506b64dd01c03d3829"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S5_C_R_D4.jsonl.gz",
+      "bytes": 522123,
+      "sha256": "52ce285769cd9dc10e9cde363a20f6abfeaef4a7a7b90f07c6e56d784385294f"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S5_M_C_D3.jsonl.gz",
+      "bytes": 429701,
+      "sha256": "b7fd84074eb64a01c0293118756c1a7afa2202ea7aa01bef9f3cb66ca0f0b21a"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S5_M_C_D4.jsonl.gz",
+      "bytes": 464930,
+      "sha256": "c3859d3de14f5981580ba413cb39142393be08c3bb7e1d6eee9ecb4757880c50"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S5_M_I_D3.jsonl.gz",
+      "bytes": 443110,
+      "sha256": "8548b829143215348d2998bd486a29a83457bb072623dc1323570eed25512811"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S5_M_I_D4.jsonl.gz",
+      "bytes": 457742,
+      "sha256": "4ec5807b94dae569b05457a4f6779fabf87f0fc455ac10bbbdde2b678f750a55"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S5_M_R_D3.jsonl.gz",
+      "bytes": 446838,
+      "sha256": "2364965530cf3b4a8c3657e0caa3cc27936d813fa870d44d8a1127e632260ae9"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S5_M_R_D4.jsonl.gz",
+      "bytes": 483332,
+      "sha256": "af20bd8306c2076b88e380ca65c682f4feb28baf0709928053e7dade302e0cb5"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S5_R_I_D3.jsonl.gz",
+      "bytes": 433221,
+      "sha256": "4eff9771d5c55347f21f1363301c3509170a8773311ce4fc5087e7b00117b99d"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S5_R_I_D4.jsonl.gz",
+      "bytes": 485482,
+      "sha256": "396f3b2a55c7cdce4576ae7926a5cc67734f53c67f2d98cbd3c85004fe9bc341"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S6_C_I_D3.jsonl.gz",
+      "bytes": 545192,
+      "sha256": "63e748287790282a9e5f4144c46ee6711d1cea61d079159ddbe2d284cc761621"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S6_C_I_D4.jsonl.gz",
+      "bytes": 581831,
+      "sha256": "6b6594cede9e9632d58c0f612be886ac2149cda5582634054f7efd89d6c400ff"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S6_C_R_D3.jsonl.gz",
+      "bytes": 553429,
+      "sha256": "b81ac8da4fe5f94d795ffa24c05721fcfe2e84992ed9f4ab6fcb63c8d779dad0"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S6_C_R_D4.jsonl.gz",
+      "bytes": 575017,
+      "sha256": "966908c2368381a9fa71e52a52321b77b9e19552cf668768b37548503d7cf711"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S6_M_C_D3.jsonl.gz",
+      "bytes": 541876,
+      "sha256": "e74080a9f834138eebf252118179daa83b6648523031fba6cc975e828e202f04"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S6_M_C_D4.jsonl.gz",
+      "bytes": 564041,
+      "sha256": "a750a6dcc037fe1802af90313ff866accc953e175be55d507fba3080b0acc716"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S6_M_I_D3.jsonl.gz",
+      "bytes": 538785,
+      "sha256": "b3650d174852765f3aa33a0cf072c67cb76b4a39692a41020d5a23f13bd14992"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S6_M_I_D4.jsonl.gz",
+      "bytes": 555901,
+      "sha256": "feb650af8891c9baca53918ed218afdb05ca0ab5e1d4bbe829c1c54db3c4ef78"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S6_M_R_D3.jsonl.gz",
+      "bytes": 529151,
+      "sha256": "67266a705e849761ac8ce4801ac0dc999835a932d80c1966436be7dd6b55b75a"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S6_M_R_D4.jsonl.gz",
+      "bytes": 577488,
+      "sha256": "7c0899b6c37798422cd76fa4a0b7d09f767618762d76e9fb52e1368a328f6e7e"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S6_R_I_D3.jsonl.gz",
+      "bytes": 500715,
+      "sha256": "0b1696d270e560ec1ec41ea54f499430059b9af577733fd140d9b361488e72ee"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/owners_S6_R_I_D4.jsonl.gz",
+      "bytes": 576986,
+      "sha256": "b1432de584cd6c6e0544978ba318475636eba0705d296bcfcf9077593750ba54"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/per_stage_discovery.csv",
+      "bytes": 416,
+      "sha256": "cb1585e497ed7f5b72dcce56797d375a2d22e3f6541c6a5f7523ffd84642c4c3"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/physical_dimension_variance.csv",
+      "bytes": 2106,
+      "sha256": "b6210d8cc86d135a916ba5ed94afa7d4c0e87c4d5de9d1db97344cd384418607"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/player_four_stat_baseline.csv",
+      "bytes": 3114,
+      "sha256": "edacd3fb45add07f82c544e12551d5d5d714408837af35f37cc3f01056c5d520"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/reachability_fresh_catalog_holdout.csv",
+      "bytes": 445438,
+      "sha256": "8dfb495562ecc25c3a1c9b7c50d5034f91efc8e5c883c30ab694ff7cc48981c8"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/reachability_independent_holdout.csv",
+      "bytes": 437693,
+      "sha256": "c7a475fcd0d5cb76f5489262aff14008d5c4eb2386602c88752c6f5f6fe08092"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/reachability_independent_summary.csv",
+      "bytes": 2597,
+      "sha256": "4aae0ca87c7ab8a2886e57cd011db07d8ae78aa728e7bcc90332f9384bd19cb0"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/refinement_manifest.json",
+      "bytes": 209,
+      "sha256": "618fbcd6ac34870138dee67a301087fd3fb8cb8c7fa7b6257e4f689bcc9a97bf"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/role_count_holdout.csv",
+      "bytes": 12664,
+      "sha256": "2320c95737ffe81546c7d6bd8e4aa74aeb800b1c063a0e65ce23a8c9aa29dae5"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/role_count_order_scan.csv",
+      "bytes": 342693,
+      "sha256": "c14ced7e92341a0fbfca7b1eeb3254f29e49f5617b097c7fc6fbbc07e5973afa"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S1_C_I_D3.jsonl.gz",
+      "bytes": 610741,
+      "sha256": "b9b45aaa579393bf40ab63f178ae5829b7d69c4ec9cc5f33f9ed31206fb9903f"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S1_C_I_D4.jsonl.gz",
+      "bytes": 1709391,
+      "sha256": "d3172648ffc372e8f5493ac2494e12543ea0f387db2f0f4ee9201557c25397ef"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S1_C_R_D3.jsonl.gz",
+      "bytes": 621612,
+      "sha256": "aa40843bb08a68ef06b4fa87d3266748c3b465922af37a7806b87b9876517f29"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S1_C_R_D4.jsonl.gz",
+      "bytes": 2101756,
+      "sha256": "f1c0908b5010f08d6a337b4daa825b172db28530077ceea8728751674a722f70"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S1_M_C_D3.jsonl.gz",
+      "bytes": 695859,
+      "sha256": "97f63412f3a5e3a565bcce43d1f4226feb1bcc3e81e1cee19fbe2a0f59327a3e"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S1_M_C_D4.jsonl.gz",
+      "bytes": 861794,
+      "sha256": "004a465f92e15b51122cd352aa3bedf3684c492f2929af0cbbf4bb86f80d8460"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S1_M_I_D3.jsonl.gz",
+      "bytes": 520481,
+      "sha256": "ba146b45d7afab3d0ffab37b5450aa294a1dda2141658087683e117abfe494ac"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S1_M_I_D4.jsonl.gz",
+      "bytes": 1383529,
+      "sha256": "f5976e1c6d27c5d2c76683aaa98112e24ef80d0eefb9c77feb2d47bfaf481a9f"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S1_M_R_D3.jsonl.gz",
+      "bytes": 618854,
+      "sha256": "fa3695a8a81476637d077864d3bb7f079ceebfa98035f641d348c5ecf39a99cf"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S1_M_R_D4.jsonl.gz",
+      "bytes": 1412227,
+      "sha256": "0ffc88298ac7d1003bbfcd6e125567109d9dd8c0770f3a7f49e6e0e4549300e5"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S1_R_I_D3.jsonl.gz",
+      "bytes": 786624,
+      "sha256": "b6b1d9c22a66cf6a5ca41a1e10bd8db37279b1ba4b39579469b7df9222ca1f01"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S1_R_I_D4.jsonl.gz",
+      "bytes": 1713843,
+      "sha256": "083b1ee6ac4566081aecec42821abd41f653b031116b6c237986896624be929f"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S2_C_I_D3.jsonl.gz",
+      "bytes": 827551,
+      "sha256": "22c9d91e8e11d238d19f8f7f9a408bfdfe3057968577812f1113bb446dda3f8f"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S2_C_I_D4.jsonl.gz",
+      "bytes": 1225279,
+      "sha256": "6f8bbd071a89a573af6e1921948a9f410e1f2bcf04102154323fe9197a836a0c"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S2_C_R_D3.jsonl.gz",
+      "bytes": 1061321,
+      "sha256": "cb8fcd49d0c4ed4c7157026921c4e1153a1bc64fca1669f24e29f54c9bf84b70"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S2_C_R_D4.jsonl.gz",
+      "bytes": 1637764,
+      "sha256": "11cce45a1d49d766526d2a6a6e1b54618c3a85241325064b09da2d54e0c77a82"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S2_M_C_D3.jsonl.gz",
+      "bytes": 746672,
+      "sha256": "4d2bb43d60269b4536abf00786429120267d7a1538b4fea78c20032198f48d53"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S2_M_C_D4.jsonl.gz",
+      "bytes": 1361250,
+      "sha256": "bcca3f64b577b1ef6dfa5eb841c3b2ed5d71450716b3209fd457a917766790fb"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S2_M_I_D3.jsonl.gz",
+      "bytes": 841688,
+      "sha256": "4d4ac46afd05cc49a4bce7790e64de70fb4f7b5a9e8757fbb79a185a2e4a735f"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S2_M_I_D4.jsonl.gz",
+      "bytes": 2072225,
+      "sha256": "386fce64e6fe46ebd8fc36a34fc86ebe299725d8e9f79a537f7bc98518073635"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S2_M_R_D3.jsonl.gz",
+      "bytes": 1151389,
+      "sha256": "22a8ecc9ce40c7b281c80e03727110eae011a62193d0c0cab8d5f69f10e26a62"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S2_M_R_D4.jsonl.gz",
+      "bytes": 1587760,
+      "sha256": "9ce6dda77bed9c1677fc39c2be282647e5e95652caced0fbe05edac0113a73df"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S2_R_I_D3.jsonl.gz",
+      "bytes": 1098175,
+      "sha256": "1386a7ea97dbbd098126bc2b2aa633d77754d974fc41925e750c164c84b3c773"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S2_R_I_D4.jsonl.gz",
+      "bytes": 1915663,
+      "sha256": "6bafae84d8f74c1319137c0c2180dcec29ea5af33fbb4010083cc7802ec3cc4c"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S3_C_I_D3.jsonl.gz",
+      "bytes": 1170258,
+      "sha256": "5ced25ac42286033d3be5cb36c9d2d231c482e96909ffb0a0328ac6596940700"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S3_C_I_D4.jsonl.gz",
+      "bytes": 1447609,
+      "sha256": "fe565721f93d5f32586efe39dad0495084d74f08f2fe0152a1e83dc381662150"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S3_C_R_D3.jsonl.gz",
+      "bytes": 1262540,
+      "sha256": "fad0a18b7a9bc808f1d4c21536a570cdc1fa850132d2754a972165e73918a65b"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S3_C_R_D4.jsonl.gz",
+      "bytes": 1796765,
+      "sha256": "07a448f67494cbefefbae3843e9dbd95aa7233e96c932845e0d812f5cb368666"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S3_M_C_D3.jsonl.gz",
+      "bytes": 987243,
+      "sha256": "42a9131eb341210ddba6b204a9895e1654fbdb4ff737c34a8405fc931814c879"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S3_M_C_D4.jsonl.gz",
+      "bytes": 1952733,
+      "sha256": "40a3f0110f31542882fac3ccac026c81b1f57c640dfa5e6769ccf2b5b88990a9"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S3_M_I_D3.jsonl.gz",
+      "bytes": 1740468,
+      "sha256": "51f271e0608cd660e7f5036837d42d13db0db099c0fda490e1d74fb069540e67"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S3_M_I_D4.jsonl.gz",
+      "bytes": 1709253,
+      "sha256": "283dcf8fab970868521f1d64ecbf7efdd74cc3723140d659b816edbf389c15a1"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S3_M_R_D3.jsonl.gz",
+      "bytes": 1327911,
+      "sha256": "86efca06e387c67d44800c9ab5e69b550257a5bc6fa39c81742106ef2760c9cb"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S3_M_R_D4.jsonl.gz",
+      "bytes": 2152296,
+      "sha256": "2e1d777674ee040776fdcaa64a30ac6118e99e09ce0d16102d5cc42de1bb099f"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S3_R_I_D3.jsonl.gz",
+      "bytes": 1853900,
+      "sha256": "b465bc58f04e8b14031d5ffbc4513fd6c0c313e481d0c567bca7eb3867e77c07"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S3_R_I_D4.jsonl.gz",
+      "bytes": 2338828,
+      "sha256": "cd63e60bccc77e5a6f27f0fb5ebca344cc19b8345dce42cc04db0773b8c7515f"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S4_C_I_D3.jsonl.gz",
+      "bytes": 1963369,
+      "sha256": "eae46044a280087ea130417fd858796e6140cbcd1df2f87936df920c5dd18f24"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S4_C_I_D4.jsonl.gz",
+      "bytes": 2331746,
+      "sha256": "4a956aec56d903d40681e09db4f480f49313ba21326be34700c8652fed2ca90b"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S4_C_R_D3.jsonl.gz",
+      "bytes": 2226796,
+      "sha256": "1e25b1696f804906f8cb166ea185e568d323a54b79c52923b02db8d0aed831ed"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S4_C_R_D4.jsonl.gz",
+      "bytes": 2445176,
+      "sha256": "eede9847e4709b1b03f6f558d73247b66e24a137b232c9209fb1b89bed50a42b"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S4_M_C_D3.jsonl.gz",
+      "bytes": 1666417,
+      "sha256": "7faa56aa5ba3d1854f653230c3090ee2e149afd05d4f6d49473aa0bb5238f983"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S4_M_C_D4.jsonl.gz",
+      "bytes": 2524358,
+      "sha256": "9a83407d454fb95736815fe1ff564241be0aeca9f8cda81062e9c0d96622bcd9"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S4_M_I_D3.jsonl.gz",
+      "bytes": 1849582,
+      "sha256": "30a2640ec3d527d64bbd9164177832bdb1dfeb0b4b9aa25b1d53b71f75a911dd"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S4_M_I_D4.jsonl.gz",
+      "bytes": 2402845,
+      "sha256": "4e9f9cf2cd87762236fd4fb3c34dba4c87a45fed51296c28905679882f5fa974"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S4_M_R_D3.jsonl.gz",
+      "bytes": 2056586,
+      "sha256": "254f1a932ec71ada850d21c2a00bd6661c926afaf7e16bc79a0b87068bed5b6a"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S4_M_R_D4.jsonl.gz",
+      "bytes": 2846936,
+      "sha256": "fd216b52a3ac6f93ad4444bd126223c03cddeab452c32906520080d29be74f95"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S4_R_I_D3.jsonl.gz",
+      "bytes": 1549033,
+      "sha256": "34d28323220bb1c529ef44074c0d3d1fdc7e8f9ad1b92acd69a81e460233c54a"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S4_R_I_D4.jsonl.gz",
+      "bytes": 1996202,
+      "sha256": "f8a8dba43ae7c78e4f423786adf57e0fcd308b76e23a962200368b08edec4ac5"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S5_C_I_D3.jsonl.gz",
+      "bytes": 2748944,
+      "sha256": "c22d6034e988eadfef749b9daac0ade08e4e200229566fa1d42c2a30a9762401"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S5_C_I_D4.jsonl.gz",
+      "bytes": 3476206,
+      "sha256": "9ca94e6798971d8dc47388cc80ba26c0dacb3555161887d6236b37736ad5b714"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S5_C_R_D3.jsonl.gz",
+      "bytes": 2322400,
+      "sha256": "ab42105790ecf7946f72fa4d640dce2497aca0cc5e25cf76679208f43899d560"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S5_C_R_D4.jsonl.gz",
+      "bytes": 3515387,
+      "sha256": "58f4a54c5894ff21653ee218621c5def4d45c05645ee0bb9736ca30c484ec370"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S5_M_C_D3.jsonl.gz",
+      "bytes": 2125814,
+      "sha256": "97694f5dbac5f3da57623306150aa94e5cac105053acc3d1dd1b08a41ee1e8df"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S5_M_C_D4.jsonl.gz",
+      "bytes": 3003530,
+      "sha256": "39a696641c40663cf590c4249b20a7fe45f460656d38d4b9e000c47520d9ec4d"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S5_M_I_D3.jsonl.gz",
+      "bytes": 2579657,
+      "sha256": "21f9bcc685674b35a1778927ea4a34af500d4cf4ad81e8bd896d6fc3971e2f79"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S5_M_I_D4.jsonl.gz",
+      "bytes": 2848776,
+      "sha256": "f204dc8b74ea82d9357ddfdd83d8590460ee3435d7c577004444e2b4e6dbb97e"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S5_M_R_D3.jsonl.gz",
+      "bytes": 2592415,
+      "sha256": "583b45356997dc75c73503e154561c1520bf917b21e97896fb605903a2b8bda3"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S5_M_R_D4.jsonl.gz",
+      "bytes": 3512961,
+      "sha256": "4bce9cec0011a91cc4074dff9cb46e375d9fb6d7cad84962dfcfadc8d02f8f5d"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S5_R_I_D3.jsonl.gz",
+      "bytes": 2561752,
+      "sha256": "fdcc0f81f76c93a914c8eac124ca30f05465fa7b1692ca79086008c4c9bf8a28"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S5_R_I_D4.jsonl.gz",
+      "bytes": 3328438,
+      "sha256": "9c1653844a57fed39ab71bf74c1f535fc48befb05a837c7ca999df9fe6872e98"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S6_C_I_D3.jsonl.gz",
+      "bytes": 3029201,
+      "sha256": "93447c5dca5e2c3d9eb27976d09a397601b76c39db05b0631268c0295be67e74"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S6_C_I_D4.jsonl.gz",
+      "bytes": 3943883,
+      "sha256": "754cfceb422ab6affcddee0e730c05b218e499a30602910deed08d51bf319674"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S6_C_R_D3.jsonl.gz",
+      "bytes": 2966443,
+      "sha256": "ef1528c92d73e53c624de9331938a9da6bddd0c083a6aec585f21003731af276"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S6_C_R_D4.jsonl.gz",
+      "bytes": 3098635,
+      "sha256": "df8fb2544f7ab2bde682da78750602cc202ef7856eda0cca69a06b8cd9c8b526"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S6_M_C_D3.jsonl.gz",
+      "bytes": 3344023,
+      "sha256": "18d6f5ddfa2c93e5f5bb895b714fab92b77bfda6f444b59a0e6a65398ca3fb07"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S6_M_C_D4.jsonl.gz",
+      "bytes": 3566664,
+      "sha256": "ed8e5c6e56ee5a451b24045735a678b93edf897433b1b17bc3d230cfa6a7f406"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S6_M_I_D3.jsonl.gz",
+      "bytes": 3246020,
+      "sha256": "8e98ad20f7bc95099f99bf071f1be9b527d8065392bef969984522151c7260af"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S6_M_I_D4.jsonl.gz",
+      "bytes": 3482296,
+      "sha256": "fcf1b8e740624757cb3cd4421495b936ad9535a25cd38d6f3dcb1a6ebd352a34"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S6_M_R_D3.jsonl.gz",
+      "bytes": 2880158,
+      "sha256": "170ae695acf79340ba694d760ee19ca19d6aaff5e47acdcab4db5802dd483b1b"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S6_M_R_D4.jsonl.gz",
+      "bytes": 4172810,
+      "sha256": "cf1b87d47590cb9f5bd8a7b6dd29fb4a6bb22680fb88222ba4b29beba0fd0f89"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S6_R_I_D3.jsonl.gz",
+      "bytes": 2927555,
+      "sha256": "8b4e7db39b9f2aa46d70d550396c7ff4dfbe84f7ac151d5162e25187d43f5b68"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/rounds_S6_R_I_D4.jsonl.gz",
+      "bytes": 3598452,
+      "sha256": "1802617c74025e3feae809b8c1fed0f7f6055c61ba9a3df784c0a40a2064bbc0"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/selected_stat_profile.json",
+      "bytes": 5890,
+      "sha256": "5f9fee342cf8dae18139a797a555dc8e7afe57b415c996e1021c828f2663ee80"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/shared_macro_holdout.csv",
+      "bytes": 55249,
+      "sha256": "e967eed88e6d35e86bcb0e93dd7bcc73d9aa418e541af706a342683078a2fc82"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/source_chain_audit.json",
+      "bytes": 1125,
+      "sha256": "16662d33412e9a3cbcb531bbac8576cb4438512d435a81c094553470d24bd023"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/source_rank35_reachability.csv",
+      "bytes": 3608,
+      "sha256": "2a319c6e619c4059a525c7e7beb43c20c2558aecf3fb1675130da9c1764418f3"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/source_reachability.csv.gz",
+      "bytes": 644082,
+      "sha256": "b6914a6011e1b0c2edee891f27096a0ac017ad8cb3f172c612f45f6b690ccfbb"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/source_reachability_summary.csv",
+      "bytes": 63086,
+      "sha256": "f09893d34f810a18cb6bea3d08e0dad997d7e32d085fc4d0aceddb30b9233575"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/source_stat_distribution.csv",
+      "bytes": 1731,
+      "sha256": "10cde70a6382213d77eed9a669bad1932d01fd00f178fe0f7f4cdf9ecab14809"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/specialization_boundaries.csv",
+      "bytes": 6632,
+      "sha256": "eb34a9f3309db8325eed055213c11b774bb30154ca40d743d34665e02c817d41"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S1_cluster_assignments.csv.gz",
+      "bytes": 4255145,
+      "sha256": "dbe08c642c6f8f69694c1a86d02eaea583f8679a78839367f0f55a3974ecb63c"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S1_cluster_centroids.csv",
+      "bytes": 8170,
+      "sha256": "cc7b450488da253e2c65a765f22b3cf3c6885a85f636b1225f689939fac28a87"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S1_correlations.csv",
+      "bytes": 399222,
+      "sha256": "a0f161e2eeb9d20aeeee8cab79e4ef11474d72dcd2e33d1a537a8fb5600e3a69"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S1_models.joblib",
+      "bytes": 177415,
+      "sha256": "2a237aeec505447fb02e488b949d2eaec2bfb7f764337664dbbe201376479ad5"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S1_pca_loadings.csv",
+      "bytes": 398543,
+      "sha256": "5acb9696411e7c19406d3e47994fa8c0fbd8b2da52f3c431c67768edaf3304df"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S1_pca_variance.csv",
+      "bytes": 6126,
+      "sha256": "e54e122fbb1fcb434f25f7bea0e883531d1953228b5afb87669a533814f260ca"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S2_cluster_assignments.csv.gz",
+      "bytes": 4601478,
+      "sha256": "bde940c3732ab2db45230a2fab829b28ca9eaa2a3495289bfc413e0f79db2b84"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S2_cluster_centroids.csv",
+      "bytes": 8701,
+      "sha256": "3934f758e581f49847132130adec07181683a5c5c9b70206c630796621f460f0"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S2_correlations.csv",
+      "bytes": 444390,
+      "sha256": "546ed4f301a9cda2ffef33b1d6baa00ac28a7c22be0b59e25fad447fac0fc74a"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S2_models.joblib",
+      "bytes": 196135,
+      "sha256": "ab93fd0ca3cd21581e6adb3d4ffadfb8fb27227eba78003927988d848dc707f1"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S2_pca_loadings.csv",
+      "bytes": 446098,
+      "sha256": "4fb4b8abe036482a3c99cae0b546288b8e4bfb3f58dd24f2605f9ff4aea88983"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S2_pca_variance.csv",
+      "bytes": 6440,
+      "sha256": "19176d4af31d55aa0e42b5a694a0961472e57533df514fc9becdcf30fc02c269"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S3_cluster_assignments.csv.gz",
+      "bytes": 4831333,
+      "sha256": "99edcfb1df12e9f733b5488597db937ab589d34d50edd2a4cee897712749e52b"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S3_cluster_centroids.csv",
+      "bytes": 8698,
+      "sha256": "a94b94af6602b580187e8fddaab626d2c3c7507dbafe4acec046ac8941fca736"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S3_correlations.csv",
+      "bytes": 449033,
+      "sha256": "76d41623debc7c47a7354ab689dbd875430b778d10b7634a873be9b2f9fab3de"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S3_models.joblib",
+      "bytes": 198519,
+      "sha256": "20f6c97d8dfb147b5b66c526ddd27207d5410aea4ca3ed380e0efa3b99fcf507"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S3_pca_loadings.csv",
+      "bytes": 451394,
+      "sha256": "0f98d80929d8b56eb1ab1eba7f53b5aa3b082263a7c1fb4a7a796411f7a37406"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S3_pca_variance.csv",
+      "bytes": 6528,
+      "sha256": "25f39172b59f05afa69fa7c82ec2c65068810597ee4759b6074ec410e4ee3b04"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S4_cluster_assignments.csv.gz",
+      "bytes": 4887701,
+      "sha256": "6e47c286dadafc982b602c50c71ba1ba73cebaa6f2789bc6421c88ff0b00025a"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S4_cluster_centroids.csv",
+      "bytes": 8418,
+      "sha256": "10072deddd9b5d791fefc011b293100724431f0ad429fd0eb4eec60c43e91e6c"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S4_correlations.csv",
+      "bytes": 427511,
+      "sha256": "c6bc1210fb04643aed19218470c26883b8cd91f2611272094184c3e20ce3395f"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S4_models.joblib",
+      "bytes": 188935,
+      "sha256": "4d26f4cb0ed9f481ff0d81ba6f3822877bdf057c41ad39888c0995dd779fe948"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S4_pca_loadings.csv",
+      "bytes": 427306,
+      "sha256": "53c6dc621c960d7e65f8e9b318a50196918d4bae42293602b299bf66c2634436"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S4_pca_variance.csv",
+      "bytes": 6319,
+      "sha256": "ddd33978247c7c3781e49129914dae678546b1461b4eb0c5963191ad4c547900"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S5_cluster_assignments.csv.gz",
+      "bytes": 4975571,
+      "sha256": "f491e40a929db1c8d263a9e771ba750645cb9d7a1b6fd7ce844e4f201332b060"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S5_cluster_centroids.csv",
+      "bytes": 11600,
+      "sha256": "bcdb7d926a52c4f055ff63359f2db8e6cae522fa1a9c0f58911cc93254d7f4fe"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S5_correlations.csv",
+      "bytes": 424983,
+      "sha256": "23c076e2a97051d3ac220cd847a0acd1aa5cad14462cff5b8afcafe04568aac6"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S5_models.joblib",
+      "bytes": 189367,
+      "sha256": "6816241a0787eb58dd87abcc16a3cd057f8cde761266cdb96dd92e3576355c1d"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S5_pca_loadings.csv",
+      "bytes": 426956,
+      "sha256": "804a39405dc2a791754b1ed3b3eb355eb993fde5c96d25be19e3b27433998a6d"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S5_pca_variance.csv",
+      "bytes": 6294,
+      "sha256": "ac73ed8ab4d94d8891043e4c60287a7d508c5bcc86366638645cfb819b03eb3b"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S6_cluster_assignments.csv.gz",
+      "bytes": 4991592,
+      "sha256": "a00513d6f2ff8372985ff764239ccbc4cb6d0ade2e8afcf94ef17d451ce28701"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S6_cluster_centroids.csv",
+      "bytes": 14310,
+      "sha256": "cbc9921b37fb5cd83f81bfe125ca65f538423d2d68050a13844fdeb14981db88"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S6_correlations.csv",
+      "bytes": 414063,
+      "sha256": "c2fefd83bba3e5aa917363bd7a0f442701744132e97e3660497671ef16fcbc5b"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S6_models.joblib",
+      "bytes": 185047,
+      "sha256": "9af9b57c5b3c36e0e3f4a6caec239e8af0c83b1b4ad8ca5de0bd4b41fe77941b"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S6_pca_loadings.csv",
+      "bytes": 415078,
+      "sha256": "c7b5adc69460cb9d99488acb7c4e00e478bbe38f7931b73a436b7839b558e20e"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stage_S6_pca_variance.csv",
+      "bytes": 6249,
+      "sha256": "eab22f2fbfddf2b6e9908d063d43803ad9f1315addf8dd5c5c489daed8f4167e"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stat_optimization_training.csv",
+      "bytes": 102358,
+      "sha256": "5461bb42132638bb5507b2732988dd91e949f34bb7e75a78f1336aae86108e2e"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stat_partial_derivatives.csv",
+      "bytes": 251413,
+      "sha256": "7b735f12678c528aa2c05833a65023baf5ec92d836a7563223551ace06c53c28"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/strategic_loadout_scan.csv",
+      "bytes": 439407,
+      "sha256": "19d7af770c317766a3706ebd6da448dc3121fd0019221dfd13db2f00c93dc76e"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/strategic_path_acceptance.csv",
+      "bytes": 199943,
+      "sha256": "4d692dd91dcc66d1d8eb4a6e2549145f33ba33f67f613ab019bfbf83411c2da1"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/strategic_paths_holdout.csv",
+      "bytes": 191433,
+      "sha256": "0f29f01c3d687620b4d5ca55d72f4e930114400838e86b73bbba76ee898f122f"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/strategic_scenario_scan.csv",
+      "bytes": 401454,
+      "sha256": "dd7ef7c922473e6a8c676ce52e6802087ff6382fc9ab027062bed60a29e59214"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S1_C_I_D3.json",
+      "bytes": 2519928,
+      "sha256": "bee6a1419490730736bb85f82eaf50a0103ba8a68c9992af69622fcdcdd1b9c7"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S1_C_I_D4.json",
+      "bytes": 2561305,
+      "sha256": "85d85c6343386186bc52b188fd8ccf63c1ed802f068038dd84d4ac54336ace37"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S1_C_R_D3.json",
+      "bytes": 2517308,
+      "sha256": "7a4d8abb172cc79c6072aeab02ab8e3ffa6162caee86dd7b7e32315aae7c594c"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S1_C_R_D4.json",
+      "bytes": 2569848,
+      "sha256": "e6e8b7f325e87f732a1e3274d799fafd122b742dadb8f25601d4db663889751d"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S1_M_C_D3.json",
+      "bytes": 2518019,
+      "sha256": "92af1af58ce0387861913bef1a2731dd5e189a39ca29369924c49cc46f7e3daa"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S1_M_C_D4.json",
+      "bytes": 2537004,
+      "sha256": "483af93b946b0feabaccd1223781280f6850466a8ea6e0c5372c593c4f3f5b10"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S1_M_I_D3.json",
+      "bytes": 2499634,
+      "sha256": "c15ed860e5bb0dacced5a6c420f3168bea53fb59238b2083bc40ca69857c6fdc"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S1_M_I_D4.json",
+      "bytes": 2479957,
+      "sha256": "523ec1c6ed256a23abde10ececb5bcb19808985aaa0868018f2259d2e2806414"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S1_M_R_D3.json",
+      "bytes": 2498810,
+      "sha256": "3621f03e664f1f23b0390c9a8bc417013ccca5a7f0bf8d910758975978501203"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S1_M_R_D4.json",
+      "bytes": 2470924,
+      "sha256": "6b4393be9844608e6c253fe80303a3e49a1f265924f6cdb313c480b81d778058"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S1_R_I_D3.json",
+      "bytes": 2520519,
+      "sha256": "9c23e19d4c1c870c6ba8e860d4ba8c7f101625f38f97efc2d112dcf115df672f"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S1_R_I_D4.json",
+      "bytes": 2562289,
+      "sha256": "1bc8171b66b0d7c3d9573290597df6f85126e2c78bd1a59e1a69034c6ed612bc"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S2_C_I_D3.json",
+      "bytes": 2530346,
+      "sha256": "2b04ad822adc10ea297efb7dfeb8dcd265c0ec370cdae4c6267fdde5ef15ab04"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S2_C_I_D4.json",
+      "bytes": 2568187,
+      "sha256": "7a6431ab653b26282ce5ba7df5ef3635c41cc7d24e34121d959a0e3660652e8b"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S2_C_R_D3.json",
+      "bytes": 2554705,
+      "sha256": "36729f71a0f26109d86e2b363eaa70c1ab7ff041532ba0f3c8f01f89f48fcdac"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S2_C_R_D4.json",
+      "bytes": 2552629,
+      "sha256": "0faf8d093b80299728d8ddc0521c8757f23773896fa4ca05796b3101b8ab5950"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S2_M_C_D3.json",
+      "bytes": 2528349,
+      "sha256": "4fc8d4f9f6049c5f1e77558f120475e9d89d3ee39af6e5b7ec240568f1dd30e4"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S2_M_C_D4.json",
+      "bytes": 2517768,
+      "sha256": "fac6191bd29265df31f45bfab4529c1d0efe94d92024c97541d4e4d7568a8fc7"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S2_M_I_D3.json",
+      "bytes": 2526809,
+      "sha256": "da873091b8f14529c75227011fcf1346770faf79e0437c3261a83aac2cfa5992"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S2_M_I_D4.json",
+      "bytes": 2616338,
+      "sha256": "3aef94d9483eb8e0e4dd53c5bf444085add24232848500f96a5728dce386fce2"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S2_M_R_D3.json",
+      "bytes": 2563870,
+      "sha256": "f30deb068c8ac8e2225571a68a539ae084a88098072a898f966165eda49cd947"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S2_M_R_D4.json",
+      "bytes": 2523548,
+      "sha256": "f9056008045687c987d5f5036c18df04f1ef0175b3076ed3f0001858dc4c863d"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S2_R_I_D3.json",
+      "bytes": 2569713,
+      "sha256": "3974a858b1dafdabe4b8f0e37688d18b30fa1a903a970e0c0148618a6dfc7904"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S2_R_I_D4.json",
+      "bytes": 2610786,
+      "sha256": "385acc928e639fcadc9b0e82bd41373b1fc726ce957b60c16eacd5e1a7e7408a"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S3_C_I_D3.json",
+      "bytes": 2502471,
+      "sha256": "dd98ce712556e73221c4650a1364cf623adc06e6608955192106d78bff03c4a8"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S3_C_I_D4.json",
+      "bytes": 2602598,
+      "sha256": "2b031fa48cefd09038c3064950d5d4ea169917d672dc435f0dba8d16ec19695f"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S3_C_R_D3.json",
+      "bytes": 2546718,
+      "sha256": "c34fa4829bd47c517611572d4249fbd92991cf4f3b834f5adc97e23559754d18"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S3_C_R_D4.json",
+      "bytes": 2618243,
+      "sha256": "11f37720f9a4914f386988c892896d93c3391d2ad61506bc897d352295eb2abd"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S3_M_C_D3.json",
+      "bytes": 2553406,
+      "sha256": "824d2e7232c2519b99970e0d77c64b81c79cc1c15eb737653fc115cd4622405c"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S3_M_C_D4.json",
+      "bytes": 2631724,
+      "sha256": "77bb95dadeca2b489c3028c85bbc809e15eafee2577e8c44d6c968eb43834b65"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S3_M_I_D3.json",
+      "bytes": 2601477,
+      "sha256": "86b6c5c01b0c3ab03668acdc78fe59b869f7bfdbcffe6d476e2dd85dd11e3d39"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S3_M_I_D4.json",
+      "bytes": 2546475,
+      "sha256": "0cc1322d42e005f6d7359c101a4fc3858c560cc63eac5abc944b4a03ac8fc70c"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S3_M_R_D3.json",
+      "bytes": 2576792,
+      "sha256": "7dbdee954e5607ebf1b6190aa88b12744d0700af911d329c6ed504aae9a064eb"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S3_M_R_D4.json",
+      "bytes": 2563107,
+      "sha256": "5ed6dcce064086160df382db2800ab4abf3345cdaeb3a2e4511e779cdefd2668"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S3_R_I_D3.json",
+      "bytes": 2620141,
+      "sha256": "3eb7577dcc6dca170c9b3e7773ded0f8d5a747db3a27fa970b48c6192df34892"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S3_R_I_D4.json",
+      "bytes": 2569784,
+      "sha256": "2f5ce7b7090d0fb8e0f9f3618496b08938c2faf0f4111b3d897105eccd404b43"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S4_C_I_D3.json",
+      "bytes": 2600777,
+      "sha256": "bd95e03e15338c7fa21fe6e78207b2de9312cba5328afe3d74024bbc1b44101d"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S4_C_I_D4.json",
+      "bytes": 2550092,
+      "sha256": "0c1a79d7d0c53cf3c3101aa7e30d529a620fb7c1aa38c3e01b9150f2b4d62b59"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S4_C_R_D3.json",
+      "bytes": 2567511,
+      "sha256": "077e4dc84fc767b5b6653dbe185e352a1d673d5d4387014f3ac3c7f78ade3600"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S4_C_R_D4.json",
+      "bytes": 2632662,
+      "sha256": "535ee192614dc4cf0cac3f1053fc820479fc75bcf645fe85f9098d1b5c4b0de5"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S4_M_C_D3.json",
+      "bytes": 2581351,
+      "sha256": "fb74d44a2bfef932587cf8284c7f5791240744efb9782fb3dfd7f67d2d713841"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S4_M_C_D4.json",
+      "bytes": 2627582,
+      "sha256": "f07cedebf44b370529ff4f536ecd499a1bde9226db1c56ea9409e3883faeabaf"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S4_M_I_D3.json",
+      "bytes": 2528490,
+      "sha256": "567e3ac444acabbaea08f8934157896c267559c77c578c4ba2dbcd2c6ca0e64f"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S4_M_I_D4.json",
+      "bytes": 2560870,
+      "sha256": "340a89501db54e357379f3455cdeecb3af63a58762d24f7893f81905382012ef"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S4_M_R_D3.json",
+      "bytes": 2604390,
+      "sha256": "a8bb29b63e9fbd53c0627aa391b3214fa7bf47d6d2c0549a361e3fe308a2ef4d"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S4_M_R_D4.json",
+      "bytes": 2623588,
+      "sha256": "dd951c044aa68eccf11207f9812ed26ce6ec4d37ad30d843b7ce93f7d64d9e08"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S4_R_I_D3.json",
+      "bytes": 2499720,
+      "sha256": "9d7b1bd3f2320cb312592a75e4636090c0b54768dc94fe1f71acaaea2887dce8"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S4_R_I_D4.json",
+      "bytes": 2592461,
+      "sha256": "4b2c6784a8ee38282c50a4412647e1061d2814b41ab6f28ac82fd1cb9637b33a"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S5_C_I_D3.json",
+      "bytes": 2631687,
+      "sha256": "0077505232842f61f5e92287762b669fa944ecf6828312ca749e5c5d235f4774"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S5_C_I_D4.json",
+      "bytes": 2642901,
+      "sha256": "b1094b01c862eff9ede5510938c325dbdfa03e2399056ca003811a48493f4066"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S5_C_R_D3.json",
+      "bytes": 2533431,
+      "sha256": "cf75d810b76e9ac9d04327f79111e6e309c1804c0b5f82ce7cde0020582fa907"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S5_C_R_D4.json",
+      "bytes": 2568932,
+      "sha256": "6a18f9a0c17d03c50c1189dd3908ddac4c257950eb2c18b998d9ff71434cae57"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S5_M_C_D3.json",
+      "bytes": 2527674,
+      "sha256": "7be7a5a5bb99dcd80a7e6eac7030fe042fd848c755d7c7106a74008ba45c8cb0"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S5_M_C_D4.json",
+      "bytes": 2584675,
+      "sha256": "cc08474f2177863bc70686fed7f1b8733884108f2ae8c66f8f1af4c43ef99047"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S5_M_I_D3.json",
+      "bytes": 2609838,
+      "sha256": "b3e77186256cc9684dcca36c4b0f4784a4d1fb07ced13ead32329012fe6a135c"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S5_M_I_D4.json",
+      "bytes": 2610825,
+      "sha256": "83bc37b309ab4cc42adfebebb84f05c36282c101fcf5b079cc86a6a9e9f0c47d"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S5_M_R_D3.json",
+      "bytes": 2619878,
+      "sha256": "1e9c772a29294e013665a04ed8e6da3a070118b33a18482b9be5fb147d456068"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S5_M_R_D4.json",
+      "bytes": 2647500,
+      "sha256": "c621fdded98f2fde5bd24e1ee920961cb6afb2e528a056cba05b2592fd2f4894"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S5_R_I_D3.json",
+      "bytes": 2611403,
+      "sha256": "59053be04370a73d5480870924949a75a1eb804bd198c7fb167eea8fcad9bf48"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S5_R_I_D4.json",
+      "bytes": 2650158,
+      "sha256": "db2a07ab515535862d63aeca6e27a7b3a5613156502b7d8b25b744639538a073"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S6_C_I_D3.json",
+      "bytes": 2623949,
+      "sha256": "6fbc04b4b989fd9925646746a685cfa236f55a9bbc95a55a1959f9e051355c96"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S6_C_I_D4.json",
+      "bytes": 2640818,
+      "sha256": "31ad172edb56873e067eebe8f502a7869454b751cc66ba141544d0b8b76d0456"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S6_C_R_D3.json",
+      "bytes": 2536178,
+      "sha256": "05045aaf41c7ba3f73f8d696d6c673a289ada703cc130fc0357f813a6c07b6ed"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S6_C_R_D4.json",
+      "bytes": 2542277,
+      "sha256": "1d07f0c6c5b5a8240d6370a5731494bf326f81247d7ca33cdede09fb59a945ec"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S6_M_C_D3.json",
+      "bytes": 2617287,
+      "sha256": "f4e50cd60cab599e4bd72eea196c2bfdccf6cc044e0b19ab4320b4b5eb770995"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S6_M_C_D4.json",
+      "bytes": 2596288,
+      "sha256": "cde3fab749aeafd709bc11de7df082d46df6dc802d97ac0e0886275cab40fb6a"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S6_M_I_D3.json",
+      "bytes": 2633726,
+      "sha256": "e6fcad9f01dde096c0ab8207590082bcb94fb011e58e85b2d25b58af64e06c7a"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S6_M_I_D4.json",
+      "bytes": 2563695,
+      "sha256": "99c4da11849d97704e0a8dab30f3e92df01350f7c6826953b1423134ad279e73"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S6_M_R_D3.json",
+      "bytes": 2605102,
+      "sha256": "0f036961377b55257494532ac724d04752f288c2e36003734750dd89efe58787"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S6_M_R_D4.json",
+      "bytes": 2570593,
+      "sha256": "c60666c1b5a4714320af8806409fcc45bac4c454d333017c88f27f19518bb0e2"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S6_R_I_D3.json",
+      "bytes": 2607470,
+      "sha256": "cbbb94d3e07a7f05319b6236bd5c6fbdb2de10f9f10f501242f825dc3cca99f5"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_checkpoint_S6_R_I_D4.json",
+      "bytes": 2564238,
+      "sha256": "937fcae7bb2d2438130a5a844ddc4f105dabce5b83d029603214d72b9b53f90d"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/telemetry_features.csv.gz",
+      "bytes": 28485350,
+      "sha256": "74e7596a00f8cacb1b1e6db7229f4e09d8b4c3d0bf0944aaa4f8e298c1d84780"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/trajectory_enrichment_manifest.json",
+      "bytes": 202,
+      "sha256": "6b96d1349ae046d09516fc3407c39b9ee3fb3e50ca03b8577a5a0ba57bc1b656"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/tuned_reachability.csv.gz",
+      "bytes": 821904,
+      "sha256": "367ea3d258e442d5a381c1b72d5a598ddd726d00dc350e19e0b5408cad185835"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/tuned_reachability_summary.csv",
+      "bytes": 57114,
+      "sha256": "5c2241c16cbdb61f1e333969b85812277fbdb7c2964a9872a842ba86446d2b42"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/unique_budget_candidates.csv",
+      "bytes": 582,
+      "sha256": "0807e6c511ba8eb21de499300d5563d2498954f57d64fbc78cafe8ab3af681ff"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/unique_budget_fresh_clusters.csv",
+      "bytes": 25198,
+      "sha256": "5e46b29256dbcf2d645f8a641a90ef5462771879c986a870f343001ffdf028d6"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/unique_budget_fresh_controls.csv",
+      "bytes": 102575,
+      "sha256": "2a1dca9666eb6e5f91d7c0863cfef2558be3b3dea1c0281ccb543f35110f1a9a"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/unique_budget_manifest.json",
+      "bytes": 465,
+      "sha256": "3c53a81b28b9addda3b8913cbd670fef882a94f51fb57855f882df99968fd0a4"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/unique_budget_response.csv",
+      "bytes": 518309,
+      "sha256": "d81a4f66faa983ed4a4c99b0bd657aa7e8bf56671bde02222b9136a844459549"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/unique_budget_training_manifest.json",
+      "bytes": 434,
+      "sha256": "bca7a2cdfef7641f4c5411692abda54c82564948d3728b774e25bbcf4a21e233"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/unique_cluster_holdout.csv",
+      "bytes": 28311,
+      "sha256": "0cabd0027c83654bf12da98c2c471da39b1150de7a64df26b23d2ab3cdfec511"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/unique_cluster_multiple_comparison.csv",
+      "bytes": 8821,
+      "sha256": "ee94abaab0621cb7bcaf39c0ee04cf6158779e53f26d11fd1df5a26fbc61ef99"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/unique_controls_holdout.csv",
+      "bytes": 109262,
+      "sha256": "2f0d91fb8db936a999470c9ff35051651647e9302f5cc3def63f63df82b132b2"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/unique_normal_budget_candidates.csv",
+      "bytes": 904,
+      "sha256": "0134dbd7862c56d4ee8350bc22c5d7aef3a28a87e19475ad10b87ed1c67ff022"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/unique_normal_budget_fresh_clusters.csv",
+      "bytes": 7667,
+      "sha256": "d0d02f7332f9c540381ce8359edb6ed7a00d622ff2d43fbfc6294d79c87be302"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/unique_normal_budget_fresh_holdout.csv",
+      "bytes": 29431,
+      "sha256": "35b372237585c7db82a51b910fcfe82a42b131ce25520429174387913995c40d"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/unique_normal_budget_manifest.json",
+      "bytes": 327,
+      "sha256": "9bd5441324be3be1f39d19d6c6fe2dd0a6cfcd390f04b30928b8929808aad718"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/unique_share_scan.csv",
+      "bytes": 610916,
+      "sha256": "6991624ef4427b6d026bf66cdc531ed2ece4cd6be7b8cace28563eb3b0e06435"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/versatility_spread.csv",
+      "bytes": 9112,
+      "sha256": "fba6e39a2f3524b67ba244bc46bba0c2256e696cd75ac2a637fd1819a7c687a9"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/run_all.ps1",
+      "bytes": 1827,
+      "sha256": "4662aa50b4870abdd52975337c4b01b4092b9ea2e37aaf9f74e3766a57778b93"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/run_natural.py",
+      "bytes": 21570,
+      "sha256": "d6e2216c9d268f939b062b70cd29b8af3fcb8abd6d0ed9d67b885f203aef96eb"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/save_checkpoint.py",
+      "bytes": 4728,
+      "sha256": "c526fda9773b2eafbb3412e3735a87f8b0368424b9938bcd885609fab4f2d1b2"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/source_snapshots/SkillGenerator_before.cs",
+      "bytes": 130810,
+      "sha256": "91cd734aa1c338049eae7a256b5a6345f85aee4aa16846d43e01385a58844346"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/source_snapshots/SkillGenerator_checkpoint.cs",
+      "bytes": 130971,
+      "sha256": "ee681ff826131bce54d122876f225da69d4b9e9863b0c7b4114e7bde43ba0c76"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/source_snapshots/SkillGenerator_research.exe",
+      "bytes": 70144,
+      "sha256": "4c01bd34c39fdb893c65687cda66995c41bedc40f8040eb4f09f5c55fb1657f4"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/stage_guides/S1_5_MEMBERS.md",
+      "bytes": 26016,
+      "sha256": "4a07a4a1f6073a50624918e5a0bf989dd548b3f3eb11f5d7b5db7679ce711282"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/stage_guides/S2_10_MEMBERS.md",
+      "bytes": 26558,
+      "sha256": "83483d1f71b66ebc83d687c6ef007356d0b0e66f410dba4d11562bb5b29d4d14"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/stage_guides/S3_15_MEMBERS.md",
+      "bytes": 26582,
+      "sha256": "67110297f5887558b526f5deadadb8d525f9d0e48dc2eafbc14ab9539322375b"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/stage_guides/S4_20_MEMBERS.md",
+      "bytes": 26487,
+      "sha256": "3182ef24435de74828fb79ef3bbced59670027f956a459383195f74fe90018ee"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/stage_guides/S5_25_MEMBERS.md",
+      "bytes": 26739,
+      "sha256": "ad623c877dcbb6639cced7e440f1edd551ac23fb174831d224331df8f77fa725"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/stage_guides/S6_30_MEMBERS.md",
+      "bytes": 26906,
+      "sha256": "323265307e21af7b75e3f999ad98892940d055e19a3d2d5aeb1c7998067c2be2"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/trajectory_features.py",
+      "bytes": 1272,
+      "sha256": "bcdd9f901298f9b96d5e6341e19f3a0a03523a58bbfe2e13eea08aa03e7894be"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/unique_mechanism_holdout.py",
+      "bytes": 2047,
+      "sha256": "505b4d9bfe497d2d2a89d17c8274eae96780a2a8af47074d05004d7e51068498"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/validate_delivery.py",
+      "bytes": 5318,
+      "sha256": "a0aba7814ad22120c2f416a746f4b0f5d01dbbdea550371982b14f7f0ff1f8bd"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/validate_natural.py",
+      "bytes": 3620,
+      "sha256": "cb84b39a8e9aa2c37faff4584baf3c0c503a5b4bb2a6332a3337c4c8a2da6055"
+    },
+    {
+      "path": "combat_numerical_paradigms/roster_research/equipment_study.py",
+      "bytes": 12601,
+      "sha256": "30003e5ffc9c6c44fef8ac2e111a9c21ef10af92029a83af1f875ab76dd66e61"
+    },
+    {
+      "path": "combat_numerical_paradigms/roster_research/results/common_operating_points.csv",
+      "bytes": 2387,
+      "sha256": "cbd986352779a9a7b8af6d7f1c8c7770687b1a1a27a1d9e66b9ce0d7e4db5f41"
+    },
+    {
+      "path": "combat_numerical_paradigms/roster_research/roster_core.py",
+      "bytes": 26107,
+      "sha256": "4692afaac934c51df1b1b457ee2c239c89b5121aea4bf65cea7e2602d2bd043a"
+    },
+    {
+      "path": "combat_numerical_paradigms/roster_research/run_study.py",
+      "bytes": 18935,
+      "sha256": "d39f7e9611f207847ed2f3fb96080c213f349cab7695fddc879c8817fc4f5b6a"
+    },
+    {
+      "path": "generate_skills_preview.py",
+      "bytes": 19050,
+      "sha256": "6105be7d1172a21efd6ad419ad877d4a33db48a17e851eec70988f367adf5a0c"
+    },
+    {
+      "path": "skill_affixes.txt",
+      "bytes": 9302,
+      "sha256": "8ba07d2b42548a4d0a8a16dc911430f655a90cf3cddc35cc202b1f75c5499f85"
+    },
+    {
+      "path": "test_30man_combat_simulator.py",
+      "bytes": 21427,
+      "sha256": "d82477b368cea5994053bcee99a618d560135e6a5195926afe26f78aa91ba75e"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "source": "D:\\123\\.gemini\\battle_scene_validation\\Assets\\Resources\\EffectTimingConfig.json",
+  "removed": [
+    "fx2_bubble_pop",
+    "fx2_magic_swirl",
+    "fx3_lightning_aura",
+    "scifx2_tech_aura"
+  ],
+  "runtime_target_changes": [
+    "fanfx1_magic_puff_B"
+  ],
+  "motion": {
+    "advanceDuration": 0.15000000596046448,
+    "holdDuration": 0.3499999940395355,
+    "retreatDuration": 0.30000001192092896
+  },
+  "families": 63,
+  "variants": 467,
+  "registry_variants": 495
+}

@@ -1,0 +1,22 @@
+{
+  "LegionBattle\\LegionBattle\\Assets\\Scripts\\Battle\\CombatRuntime.cs": "3c0f434b5b051f85bb22a9666e157a89959f65a4f0b126c7eb9ffa1b33bb94f3",
+  "LegionBattle\\LegionBattle\\Assets\\Scripts\\Battle\\CombatPersistentLimits.cs": "76f5263069bb9250337008a0218943c8d20d49b17cc92ded683cea699acca7a0",
+  "LegionBattle\\LegionBattle\\Assets\\Scripts\\Battle\\ExpeditionState.cs": "1d202232d5d0ccb6cf2a0fce5f2a969d3e4a88c260401461b5cf01ba00211bd7",
+  "LegionBattle\\LegionBattle\\Assets\\Scripts\\Battle\\BattleTroop.cs": "a5db8581cf1661142a4820788ff863a24488cc908fd2714e9d3214e93c58bdea",
+  "LegionBattle\\LegionBattle\\Assets\\Scripts\\Battle\\BattleSceneRequest.cs": "18d2be9699273b9420a263b0c59b55e1e8162024f6640e5397bed712cfb75f45",
+  "LegionBattle\\LegionBattle\\Assets\\Scripts\\Battle\\BattleSceneFlow.cs": "6e036b0cb35559f4fb9956c2cafa71105b28e8fd33cbfd680fa5e8a1035bf15a",
+  "LegionBattle\\LegionBattle\\Assets\\Scripts\\Battle\\BattleSceneController.cs": "6b4dd5e1958c68c99bbf13fefa97c848b7fa0813819b05231b4e19cfdf3862cc",
+  "LegionBattle\\LegionBattle\\Assets\\Scripts\\Battle\\BattleInspectionManager.cs": "dc78e135e6e03c11e28d0f2103086bc8f1376c1cc53341f66301d800d80c3bc1",
+  "LegionBattle\\LegionBattle\\Assets\\Scripts\\Battle\\ExpeditionRuntimeProbe.cs": "95093e5b70524eb6a8af13e0812ecb82d9cdd1b4eba3b91495410ea1a1e85db1",
+  "LegionBattle\\LegionBattle\\Assets\\Editor\\ExpeditionValidation.cs": "1f5d1ff9beed392f3955247aafceb3787e7dc021a7bf6fa9c9465bf15c081e76",
+  "LegionBattle\\LegionBattle\\Assets\\Scripts\\Battle\\CombatRuntime.cs.meta": "c4601423ec8efbde0d77ae6cf1ee18d46329e8854fedb2ac7296fef0a6957e39",
+  "LegionBattle\\LegionBattle\\Assets\\Scripts\\Battle\\CombatPersistentLimits.cs.meta": "fefbb58f926c716510f3ccb97d3456f567773a7d7ea04a8becdec5d69953a0d8",
+  "LegionBattle\\LegionBattle\\Assets\\Scripts\\Battle\\ExpeditionState.cs.meta": "3cd049fe78c83e9f56cb49b61d87de13d9368667949aabadcc52345367d0dfcc",
+  "LegionBattle\\LegionBattle\\Assets\\Scripts\\Battle\\BattleTroop.cs.meta": "e3bbef6176e392735781be2ceef0f500ccfe9d44ed511c250cd5ad4643286f63",
+  "LegionBattle\\LegionBattle\\Assets\\Scripts\\Battle\\BattleSceneRequest.cs.meta": "6f4bccd6f4ef7cb1ec78ff39b47d3b491f96833987722a9df9023b3d5e5f13e3",
+  "LegionBattle\\LegionBattle\\Assets\\Scripts\\Battle\\BattleSceneFlow.cs.meta": "350b999de9065b895e356e10dae261259969a3d70128b2d4195dd75ad4b576aa",
+  "LegionBattle\\LegionBattle\\Assets\\Scripts\\Battle\\BattleSceneController.cs.meta": "7dc282e2e983811681671d4ab0aeec9aa07727dd27058ee63dda503816f81f4b",
+  "LegionBattle\\LegionBattle\\Assets\\Scripts\\Battle\\BattleInspectionManager.cs.meta": "96a012e9d526abc415bae028b3356de0bdde981ebee070ccc727545c97b6817f",
+  "LegionBattle\\LegionBattle\\Assets\\Scripts\\Battle\\ExpeditionRuntimeProbe.cs.meta": "5f0b6529d9d53f370e96ad1633ca9c13c411ba71be5c6125e7269c0c9a4fc933",
+  "LegionBattle\\LegionBattle\\Assets\\Editor\\ExpeditionValidation.cs.meta": "5ea90038a46486b9e6aba1557e3e34f43af52c88743aa86fd801e543ac81b8cb"
+}

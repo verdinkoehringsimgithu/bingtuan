@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "added_cases": 3120,
+  "added_actions": 40479,
+  "maximum_relative_error": 1.0547118733938987e-13,
+  "total_numerical_cases": 25200,
+  "stage_cases": {
+    "5": 520,
+    "10": 520,
+    "15": 520,
+    "20": 520,
+    "25": 520,
+    "30": 520
+  },
+  "unavailable": {
+    "5:scholar": "No finite-use skill in the frozen stage fixtures; restoration has no valid target."
+  },
+  "production_manifest_sha256": "3705cc04d1121ce8bf30eff51b298a55389008e419f0945371becaf4d9ac5490",
+  "production_unchanged": true,
+  "protected_assets_unchanged": true,
+  "scope": "Interaction physics and state coverage; no new balance or best-order estimate."
+}

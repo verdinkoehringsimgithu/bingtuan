@@ -1,0 +1,12 @@
+name	genre	tier	id	family	color	self	allowed
+究极斩击风暴	勇气	6	1280	fx2_slash	green	False	True
+苍穹坠击陨星	勇气	6	1346	impfx1_dust_impact_A	blue	False	True
+极限连刺骤雨	先机	6	1374	impfx1_quick_impact_C	blue	False	True
+虚空斩击火海	魔力	6	1282	fx2_slash	red	False	True
+焚尽劫灰之火	魔力	6	1174	fanfx2_fire_spell	red	False	True
+磐石圣盾	坚韧	4	1472	scifx2_hex_shield	orange	True	True
+崩岩吞噬风暴	魔力	6	1209	fanfx2_wind_spell	green	False	True
+斩天剑	勇气	1	1279	fx2_slash	blue	False	True
+浴血之爪	勇气	4	1255	fx2_claw	red	False	True
+虚空之门	魔力	6	1432	scifx1_wormhole	violet	False	True
+虚空引力	魔力	6	1451	scifx2_black_hole	violet	False	True

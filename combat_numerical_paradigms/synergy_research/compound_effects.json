@@ -1,0 +1,34 @@
+{
+  "version": "2026-10-21-compound-v1",
+  "status": "用户确认效果方向；以下解锁点、系数、结算细节为研究候选",
+  "strength": {"formula": "q=n/(n+4)", "amplitude": "q*gain", "gain": 1.0},
+  "maid": {
+    "confirmed": "最前女仆为女仆长，100%发动、不限次数、不可封印，无回合和战力百分比门槛；随强度增加叠加回复、增加四维、降低四维、暴击、真伤等复合效果。",
+    "unlocks": [0.2, 0.4, 0.55, 0.7, 0.8],
+    "components": ["heal", "self_stats", "enemy_stats_down", "skill_crit", "pure_true"],
+    "attack_gain": 1.8,
+    "heal": 0.08,
+    "stats_per_cast": 0.025,
+    "debuff_percent": 12.0,
+    "debuff_duration": 2,
+    "skill_crit": 0.2,
+    "timing_candidate": "自身回复在施法时；四维增长在动作后，按开局各维固定基数累加；敌方削弱命中后按原生管线；暴击和真伤沿用原生直伤管线。"
+  },
+  "farmer": {
+    "confirmed": "共用一个果实；第一次攻击播种，5回合成熟，未成熟攻击加速，成熟后攻击收获，等待越久越强；果实同时回复和增加四维，回复量、属性种类数和每种数值随羁绊强度增加。",
+    "ripen": 5,
+    "accelerate": 1,
+    "wait_gain": 0.15,
+    "heal": 0.12,
+    "stats_per_axis": 0.1,
+    "axis_unlocks": [0.0, 0.4, 0.6, 0.8],
+    "axis_selection_candidate": "开局四维从低到高，等值按勇气/坚韧/先机/魔力；每维数值以开局四维均值为基数；本场累加，不改最大战力。"
+  },
+  "adventurer": {
+    "confirmed": "每场有多个目标，关注实际战斗节点，例如第一次将敌方战力打下100%/75%/50%/25%、第一次暴击、第一次闪避；完成目标后增强冒险者技能，人数越多越强。",
+    "goals": ["enemy_below_100", "enemy_below_75", "enemy_below_50", "enemy_below_25", "first_crit", "first_dodge"],
+    "extra_observed_events": ["first_hit", "first_heal", "first_dot", "first_debuff", "first_absolute_dodge"],
+    "per_goal_damage": 0.06,
+    "timing_candidate": "战团共享目标；同目标本场只完成一次，血线用严格小于；跨过多条线可同时完成；恢复不重置；伤害、暴击及防守闪避事件后登记，只强化后续冒险者技能。"
+  }
+}

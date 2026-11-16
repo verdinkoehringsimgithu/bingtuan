@@ -1,0 +1,151 @@
+{
+  "families": [
+    "fanfx1_spellcast_B",
+    "fanfx1_spellcast_C",
+    "fanfx2_cure",
+    "scifx2_tech_aura"
+  ],
+  "variants": 28,
+  "entries": [
+    {
+      "animation_id": 1117,
+      "family": "fanfx1_spellcast_B",
+      "folder": "fanfx1_spellcast_B_large_blue"
+    },
+    {
+      "animation_id": 1118,
+      "family": "fanfx1_spellcast_B",
+      "folder": "fanfx1_spellcast_B_large_green"
+    },
+    {
+      "animation_id": 1119,
+      "family": "fanfx1_spellcast_B",
+      "folder": "fanfx1_spellcast_B_large_orange"
+    },
+    {
+      "animation_id": 1120,
+      "family": "fanfx1_spellcast_B",
+      "folder": "fanfx1_spellcast_B_large_red"
+    },
+    {
+      "animation_id": 1121,
+      "family": "fanfx1_spellcast_B",
+      "folder": "fanfx1_spellcast_B_large_violet"
+    },
+    {
+      "animation_id": 1122,
+      "family": "fanfx1_spellcast_B",
+      "folder": "fanfx1_spellcast_B_large_yellow"
+    },
+    {
+      "animation_id": 1123,
+      "family": "fanfx1_spellcast_C",
+      "folder": "fanfx1_spellcast_C_large_blue"
+    },
+    {
+      "animation_id": 1124,
+      "family": "fanfx1_spellcast_C",
+      "folder": "fanfx1_spellcast_C_large_green"
+    },
+    {
+      "animation_id": 1125,
+      "family": "fanfx1_spellcast_C",
+      "folder": "fanfx1_spellcast_C_large_orange"
+    },
+    {
+      "animation_id": 1126,
+      "family": "fanfx1_spellcast_C",
+      "folder": "fanfx1_spellcast_C_large_red"
+    },
+    {
+      "animation_id": 1127,
+      "family": "fanfx1_spellcast_C",
+      "folder": "fanfx1_spellcast_C_large_violet"
+    },
+    {
+      "animation_id": 1128,
+      "family": "fanfx1_spellcast_C",
+      "folder": "fanfx1_spellcast_C_large_yellow"
+    },
+    {
+      "animation_id": 1153,
+      "family": "fanfx2_cure",
+      "folder": "fanfx2_cure_large_blue"
+    },
+    {
+      "animation_id": 1154,
+      "family": "fanfx2_cure",
+      "folder": "fanfx2_cure_large_green"
+    },
+    {
+      "animation_id": 1155,
+      "family": "fanfx2_cure",
+      "folder": "fanfx2_cure_large_orange"
+    },
+    {
+      "animation_id": 1156,
+      "family": "fanfx2_cure",
+      "folder": "fanfx2_cure_large_pink"
+    },
+    {
+      "animation_id": 1157,
+      "family": "fanfx2_cure",
+      "folder": "fanfx2_cure_large_red"
+    },
+    {
+      "animation_id": 1158,
+      "family": "fanfx2_cure",
+      "folder": "fanfx2_cure_large_violet"
+    },
+    {
+      "animation_id": 1159,
+      "family": "fanfx2_cure",
+      "folder": "fanfx2_cure_large_yellow"
+    },
+    {
+      "animation_id": 1478,
+      "family": "scifx2_tech_aura",
+      "folder": "scifx2_tech_aura_large_black"
+    },
+    {
+      "animation_id": 1479,
+      "family": "scifx2_tech_aura",
+      "folder": "scifx2_tech_aura_large_blue"
+    },
+    {
+      "animation_id": 1480,
+      "family": "scifx2_tech_aura",
+      "folder": "scifx2_tech_aura_large_green"
+    },
+    {
+      "animation_id": 1481,
+      "family": "scifx2_tech_aura",
+      "folder": "scifx2_tech_aura_large_orange"
+    },
+    {
+      "animation_id": 1482,
+      "family": "scifx2_tech_aura",
+      "folder": "scifx2_tech_aura_large_pink"
+    },
+    {
+      "animation_id": 1483,
+      "family": "scifx2_tech_aura",
+      "folder": "scifx2_tech_aura_large_red"
+    },
+    {
+      "animation_id": 1484,
+      "family": "scifx2_tech_aura",
+      "folder": "scifx2_tech_aura_large_violet"
+    },
+    {
+      "animation_id": 1485,
+      "family": "scifx2_tech_aura",
+      "folder": "scifx2_tech_aura_large_white"
+    },
+    {
+      "animation_id": 1486,
+      "family": "scifx2_tech_aura",
+      "folder": "scifx2_tech_aura_large_yellow"
+    }
+  ]
+}

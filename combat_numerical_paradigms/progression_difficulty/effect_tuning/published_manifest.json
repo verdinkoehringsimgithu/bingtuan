@@ -1,0 +1,28 @@
+{
+  "validation": {
+    "passed": true,
+    "checks": 2591,
+    "families": 67,
+    "variants": 495,
+    "layered_variants": 28,
+    "error": null
+  },
+  "files": [
+    {
+      "path": "Assets/Scenes/BattleEffectTestScene.unity",
+      "sha256": "9758d5e59ec16442ba9eb9dd3e0ef83f42134a222eb313f731e47a1895b6814b"
+    },
+    {
+      "path": "Assets/Scenes/BattleEffectTestScene.unity.meta",
+      "sha256": "93c965b237b8087d102d693807bc2685da833cba348dea7ef00e1f14c5cb7c1e"
+    },
+    {
+      "path": "Assets/Resources/EffectDatabase.asset",
+      "sha256": "66e62143e0e6e72d1b54b9faced504a45fad1862e40d73737fc24989b127b445"
+    },
+    {
+      "path": "Assets/Resources/EffectDatabase.asset.meta",
+      "sha256": "48ff18712f7142ac8b3a994aa4f79bc6a4640bd0d89133fd0a9f70cc28f4e816"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "validation": {
+    "passed": true,
+    "checks": 3514,
+    "families": 63,
+    "variants": 467,
+    "layered_variants": 19,
+    "error": null
+  },
+  "lifecycle": {
+    "passed": true,
+    "lifecycle_checks": 73,
+    "navigation_owner": "caller"
+  },
+  "placement": "static_formation_center",
+  "sorting": "per_family",
+  "files": [
+    {
+      "path": "Assets/Scripts/Battle/BattleFormationCenter.cs",
+      "sha256": "1a5e77efa3d4668299a3f4b61ab57a22ce1547ee5fed1e9d0b210396e0bc8337"
+    },
+    {
+      "path": "Assets/Scripts/Battle/BattleEffectSorting.cs",
+      "sha256": "2e55b57ed80bdc3fe843e292abae4199d4fc951921bc430d61440ada2dbce3e6"
+    },
+    {
+      "path": "Assets/Scripts/Battle/BattleEffectPlayer.cs",
+      "sha256": "7db9f33bb7c4cd6626e96dd9d73003ed5165cf986c9d356b6d75267e5ae2e3a1"
+    },
+    {
+      "path": "Assets/Scripts/Battle/BattleEffectTestModule.cs",
+      "sha256": "f51a8347aa7dd70608b94e3e30fce006968d49d9ab704d97861588f537753726"
+    },
+    {
+      "path": "Assets/Scripts/Battle/BattleEffectTestProbe.cs",
+      "sha256": "1ae2acadf736da4fb92cf877b01194590605e7d8113eaf97a1cf3780a63ccda2"
+    },
+    {
+      "path": "Assets/Scripts/Battle/EffectTimingConfig.cs",
+      "sha256": "eb7a506d9f5f1f1144bdefbfbf139bdb8ebdb1847d2f369c4fbca70e9e6e1c79"
+    },
+    {
+      "path": "Assets/Scripts/Battle/EffectSheetData.cs",
+      "sha256": "3bc8ddb0e24fbf395dd22a15b198960dfe4314843ccc0f1189c3f9a31dc4efcc"
+    },
+    {
+      "path": "Assets/Scripts/Battle/EffectDatabase.cs",
+      "sha256": "5374084631070849b41647e6b003957cdd1c5b3c4086caf5b1581c74c27daf93"
+    },
+    {
+      "path": "Assets/Scripts/Battle/EffectFrameAlignment.cs",
+      "sha256": "04a9fa5e790bfa57b61999b95e8c8726627c6bd7646739941d8043ef4ad8e1f6"
+    },
+    {
+      "path": "Assets/Scripts/Battle/BattlePresentationTimeline.cs",
+      "sha256": "b5027912ae941ebf46f333b770b33e247b0a1704e3e45df3fe003393f1286a45"
+    },
+    {
+      "path": "Assets/Scripts/Battle/BattleCharacterPreview.cs",
+      "sha256": "b2d542404f1c13b95e1c4ea9ce67540f238cffd24f4e5cd3ea4cd53533c22949"
+    },
+    {
+      "path": "Assets/Scripts/Battle/BattleInspectionManager.cs",
+      "sha256": "908f94e71dea845fae35448af5a99eaf0a991dac8eb5d03c35dd7828112cc5d5"
+    },
+    {
+      "path": "Assets/Editor/EffectSpriteSheetSlicer.cs",
+      "sha256": "057ba8189916312f41fdefb2ca213906f8e89843d714ddf7f6a6cdfa90738e60"
+    },
+    {
+      "path": "Assets/Editor/BattleEffectBuildPreparation.cs",
+      "sha256": "7f43585010454b14109075633e8fe2803b42122363ff89a45502ea0c7dc45732"
+    },
+    {
+      "path": "Assets/Scripts/Battle/BattleSceneLifecycleProbe.cs",
+      "sha256": "99968f6d56f345c730d4d01ec0bdca5ebf95fe1abd083c58bdd0641a432ebffa"
+    },
+    {
+      "path": "Assets/Scripts/Battle/CameraShakeController.cs",
+      "sha256": "f10a27cada1ae6dd6906585b90a39b26a254ddb5a49c3baddd926495ec5268d5"
+    },
+    {
+      "path": "Assets/Scripts/Battle/SkillEffectMatcher.cs",
+      "sha256": "3b2c650ea59c0b9348eafd090a7f2528f1e27cacc9075299252cbce79e6979af"
+    }
+  ],
+  "open_project": "D:\\123\\.gemini\\battle_scene_validation",
+  "user_calibration_preserved": true,
+  "authorized_changes": {
+    "removed": [
+      "fx2_bubble_pop",
+      "fx2_magic_swirl",
+      "fx3_lightning_aura",
+      "scifx2_tech_aura"
+    ],
+    "motion": {
+      "advanceDuration": 0.15000000596046448,
+      "holdDuration": 0.3499999940395355,
+      "retreatDuration": 0.30000001192092896
+    }
+  },
+  "user_config_sha256": "b925099fa7c09658504bda4b406c978027b6657ad63c61425a85c44811857aa3"
+}

@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "baseline_cases": 480,
+  "limited_cases": 2400,
+  "limited_max_relative_error": 2.3869795029440866e-15,
+  "unity_checks": 135,
+  "lifecycle_checks": 73,
+  "baseline_battles": 37500,
+  "baseline_overall_wr_percent": [
+    54.3,
+    55.7,
+    53.8,
+    46.5,
+    42.5,
+    47.2
+  ],
+  "baseline_spread_percentage_points": 13.2,
+  "presentation_unchanged": {
+    "Assets/Resources/FormationConfig.json": true,
+    "Assets/Resources/EffectTimingConfig.json": true,
+    "Assets/Scenes/BattleScene.unity": true
+  },
+  "production_source_files": 20,
+  "identity_synergy_runtime_ported": false
+}

@@ -1,0 +1,17 @@
+{
+  "cases": 3360,
+  "profiles": 7,
+  "sources": {
+    "combat_numerical_paradigms\\progression_difficulty\\runtime_parity_cases.json": "1797ea4babcb954bfeab3b1dc488d552ebb709d777ab7512bee11673c5725ed2",
+    "combat_numerical_paradigms\\progression_difficulty\\amplification_runtime_2026_10_28\\generate_parity.py": "d96b110a44200cea0d03adf56c803a5eb12ef48d161a36e44bc47f458dba5790",
+    "combat_numerical_paradigms\\progression_difficulty\\support_runtime_2026_10_28\\generate_parity.py": "0f79c02b786bc2a06f2dd897b47e98ae344b547babd6fd82cc487c89ae76c463",
+    "combat_numerical_paradigms\\progression_difficulty\\evasion_runtime_2026_10_28\\generate_parity.py": "60e306a702de2155c7d9720420f596ee07bb6b6ff6ebc9bb0ec956fb3de1313f",
+    "combat_numerical_paradigms\\synergy_research\\bond_core.py": "2b3432c4cec3be55ea7aaf09442356793a1c82304463de5a6258feca1ddcc253",
+    "combat_numerical_paradigms\\synergy_research\\joint_core.py": "e379de9956dd5ec78a6b91b6223d75a1dc9a8f6e7f623179e6dd0ab0491f455d",
+    "combat_numerical_paradigms\\progression_difficulty\\expedition_runtime_2026_10_27\\generate_limited_parity.py": "06e9001fa59b2d6794d6597d2e9e24052c7b1c392ceb93c4535e7a00c4f99fda",
+    "combat_numerical_paradigms\\roster_research\\roster_core.py": "4692afaac934c51df1b1b457ee2c239c89b5121aea4bf65cea7e2602d2bd043a",
+    "combat_numerical_paradigms\\natural_research\\natural_core.py": "7ceeb0180e0f4876c451808572c680ee2b13e97f4f08d7e7ac770cc229a20fba",
+    "test_30man_combat_simulator.py": "d82477b368cea5994053bcee99a618d560135e6a5195926afe26f78aa91ba75e",
+    "combat_numerical_paradigms\\synergy_research\\settings.py": "697a78820c06f18cd504d085538c7042068c30f552dc65ad5051ca9f33fe904e"
+  }
+}

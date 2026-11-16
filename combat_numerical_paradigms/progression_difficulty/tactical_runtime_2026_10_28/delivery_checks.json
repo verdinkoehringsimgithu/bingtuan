@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "new_battle_cases": 3360,
+  "new_actions": 72296,
+  "maximum_relative_error": 8.911302712303356e-14,
+  "previous_battle_cases": 15360,
+  "new_invariant_checks": 31,
+  "unity_checks": {
+    "unity_validation.json": 114,
+    "augmentation_validation.json": 132,
+    "amplification_validation.json": 132,
+    "support_validation.json": 153,
+    "evasion_validation.json": 142,
+    "identity_validation.json": 71,
+    "expedition_validation.json": 135,
+    "label_validation.json": 3698
+  },
+  "lifecycle_checks": 73,
+  "baseline_battles": 37500,
+  "overall_win_rates": [
+    53.9,
+    55.5,
+    54.2,
+    47.1,
+    42.1,
+    47.1
+  ],
+  "spread_percentage_points": 13.4,
+  "protected_unchanged": {
+    "Assets/Characters/character_bond_labels.json": true,
+    "Assets/Scenes/BattleScene.unity": true,
+    "Assets/Resources/EffectTimingConfig.json": true,
+    "Assets/Resources/FormationConfig.json": true,
+    "Assets/Characters/CharacterDatabase.asset": true
+  },
+  "added_mechanisms": [
+    "mage",
+    "hunter",
+    "gang",
+    "rich",
+    "worker"
+  ],
+  "total_ported_mechanisms": 20
+}

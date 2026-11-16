@@ -1,0 +1,47 @@
+{
+  "scene_guid": "170dc5946cb622140903425ef5c9ee06",
+  "lifecycle": {
+    "passed": true,
+    "lifecycle_checks": 55,
+    "navigation_owner": "caller"
+  },
+  "navigation_owner": "caller",
+  "files": [
+    {
+      "path": "LegionBattle\\LegionBattle\\Assets\\Scenes\\BattleScene.unity",
+      "sha256": "bcb67c26329fccad49763c000ac736096cb72c993159628855e732ecbed7795c"
+    },
+    {
+      "path": "LegionBattle\\LegionBattle\\ProjectSettings\\EditorBuildSettings.asset",
+      "sha256": "ed5ee4027f798c19c9aa3c9a362320623efc4ed50ea87c84ab9fe7de8486782d"
+    },
+    {
+      "path": "LegionBattle\\LegionBattle\\Assets\\Scripts\\Battle\\BattleSceneController.cs",
+      "sha256": "b8ff738e4dca2a93a95c60c5e5528b1ecfd50b47e19c90efe59834a660c8041b"
+    },
+    {
+      "path": "LegionBattle\\LegionBattle\\Assets\\Scripts\\Battle\\BattleSceneFlow.cs",
+      "sha256": "0fc5e763dbb0dbbc5cd0922c4e451b25cf104aff2197251c5a72f2ccdc0f7871"
+    },
+    {
+      "path": "LegionBattle\\LegionBattle\\Assets\\Scripts\\Battle\\BattleSceneFlowDriver.cs",
+      "sha256": "1da3c9107a87a2e55bf363ecc36d2b64f9355b448c6630117cb512279cace41e"
+    },
+    {
+      "path": "LegionBattle\\LegionBattle\\Assets\\Scripts\\Battle\\BattleSceneLifecycleProbe.cs",
+      "sha256": "9d308b0efe93a3296f85a000f64b46a75ef52547150f274135f0d38ea9ec0421"
+    },
+    {
+      "path": "LegionBattle\\LegionBattle\\Assets\\Scripts\\Battle\\BattleSceneRequest.cs",
+      "sha256": "a7ce9f102f705d5b2d05a67c5e2bef9dca99221feb761e9b54749ef3d24b982d"
+    },
+    {
+      "path": "LegionBattle\\LegionBattle\\Assets\\Scripts\\Battle\\CombatRuntime.cs",
+      "sha256": "d24827f7a1abd66721eaa5217cae641c6bd41225b08bd8aee70f6c4b226d4dce"
+    },
+    {
+      "path": "LegionBattle\\LegionBattle\\Assets\\Editor\\BattleSceneTools.cs",
+      "sha256": "1627c0d48a96d6e1928ce56c13dbee997bb6438e0735e1bbf36ab7fd2337f44c"
+    }
+  ]
+}

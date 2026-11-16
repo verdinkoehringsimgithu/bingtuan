@@ -1,0 +1,358 @@
+{
+  "saved_at_local": "2026-10-12T20:58:13.020414+08:00",
+  "status": "stopped_by_user_quota_condition",
+  "observed_primary_usage_percent": 96,
+  "usage_percent_is_not_context_token_count": true,
+  "simulation_process_stopped": true,
+  "completed": [
+    "reachability",
+    "independent_reachability",
+    "difficulty",
+    "role_count_order",
+    "common_equipment_stats",
+    "model_validation"
+  ],
+  "incomplete": [
+    "mechanism_response_scan",
+    "four_top_equipment",
+    "telemetry",
+    "unsupervised_discovery",
+    "unique_interventions",
+    "four_strategic_paths",
+    "final_design_specification"
+  ],
+  "unsaved_interrupted_phase": {
+    "name": "mechanism_response_scan",
+    "latest_logged_cells": 6600,
+    "planned_cells": 8100,
+    "persisted_cells": 0
+  },
+  "caveats": [
+    "candidate_reachability and optimization training predate allocation mirror fix",
+    "generator source changed; GUI executable and Unity integration not updated",
+    "D2 joint targets not all met; all three tasks remain incomplete"
+  ],
+  "archive_relative_path": "combat_numerical_paradigms/NATURAL_RESEARCH_CHECKPOINT_2026-10-12-20_54.zip",
+  "files": [
+    {
+      "path": "AGENT.md",
+      "bytes": 9484,
+      "sha256": "6181ebd89dff6482ff5c04d29162386a4f1462f4ca174c58c8bcb5c1e3a4881e"
+    },
+    {
+      "path": "CC-Session-Logs/2026-10-12-20_54-natural-combat-checkpoint.md",
+      "bytes": 11857,
+      "sha256": "5be81ee8d1e1cdfdeee77ab37ada3cafa1ad4ad2b54dd0885bc6fce27c684f22"
+    },
+    {
+      "path": "combat_numerical_paradigms/01_COMBAT_CORE_MATHEMATICAL_MODEL.md",
+      "bytes": 8693,
+      "sha256": "b5f727c935388b2c5ae0baa24ad8cc0e29987715343e9af94203848f49e59429"
+    },
+    {
+      "path": "combat_numerical_paradigms/02_PROGRESSION_STAGES_AND_BUDGETS.md",
+      "bytes": 4648,
+      "sha256": "2e9b2cc368df5fb8dcec2be36bdc3e88ecd1aa5c3dd74252aaa2d85b28a13f1c"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/CHECKPOINT_2026-10-12.md",
+      "bytes": 11857,
+      "sha256": "5be81ee8d1e1cdfdeee77ab37ada3cafa1ad4ad2b54dd0885bc6fce27c684f22"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/export_catalog.ps1",
+      "bytes": 916,
+      "sha256": "be11c7441070980bbcb12eb9990102bb9c00547f22db7481ffe316ef8118a4ef"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/GeneratorBridge.cs",
+      "bytes": 1752,
+      "sha256": "b2580947f871cc57fb3d426af0640b2cf41c98bd6c4015d3c7c6ef305bd79714"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/natural_core.py",
+      "bytes": 7545,
+      "sha256": "7ceeb0180e0f4876c451808572c680ee2b13e97f4f08d7e7ac770cc229a20fba"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/reachability.py",
+      "bytes": 10947,
+      "sha256": "180f9e1f6bd7fa576650d8025598e433dc346c159e872f99ff9a331efa5f150e"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/candidate_reachability.csv.gz",
+      "bytes": 822157,
+      "sha256": "30c603cc6929111930b3b3d09b7d1dbe01029c0f6ea921da0fe1ad27b66b20f8"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/candidate_reachability_summary.csv",
+      "bytes": 57117,
+      "sha256": "f42fd97488d6a770657c38ad3e3de9e0c24501a202114c7bbef8aff8617262d6"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/catalog_before.json",
+      "bytes": 5376353,
+      "sha256": "59fa281136520e648dd61a5dbd01f3c62ace3cf4ce90e4a281ba6e7dba57d8af"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/catalog_current.json",
+      "bytes": 5382263,
+      "sha256": "5b175b614157a408abbfbf82a79e3cdceddbbaa9c48ab00f1f08110922b42aab"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/catalog_holdout.json",
+      "bytes": 5378807,
+      "sha256": "c5f21e7b8586ba80b96d3aa746ac640f6f536552c8f30e9b8971f3d323a507b3"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/common_stat_ranges.csv",
+      "bytes": 10383,
+      "sha256": "03bd871cbd7312600fe2422e4760d317e4d5707fd038cda4203270e5dc7a379d"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/common_stat_scan.csv",
+      "bytes": 1127376,
+      "sha256": "fc7fd37c0f995b0c4036e8f8fd81949438c22f62d9f76c322ac54d6cb453db45"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/difficulty_candidates.csv",
+      "bytes": 20274,
+      "sha256": "f209d661221ef36e9c98ccb61fb16034b4d0cbef14d62086cadd5cd3e4014209"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/difficulty_holdout.csv",
+      "bytes": 52626,
+      "sha256": "3f2bdd78b724355a2ecaf3e1ed75b4921f9655a7ec5a4124c2621e232761b24a"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/enemy_global_scan.csv",
+      "bytes": 11694352,
+      "sha256": "19140995f1a5310354787bc6e256290f409e1b3093e4f46356eb5f8ef0fd9831"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/enemy_joint_refinement.csv",
+      "bytes": 3333174,
+      "sha256": "7f0b220b46965a7d08124c2915afa92eb565a87851abea446098236b15881ea2"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/experiment_manifest.json",
+      "bytes": 306,
+      "sha256": "0ea58be389084aba854aed806b9e713f7801dbe5db922451f812564759c8af6e"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/foundation_manifest.json",
+      "bytes": 306,
+      "sha256": "0ea58be389084aba854aed806b9e713f7801dbe5db922451f812564759c8af6e"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/generator_patch_audit.json",
+      "bytes": 321,
+      "sha256": "23c076271a0a96d90a335df8112d5a283f007546e0e1888bee149d582676f7ea"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/model_validation.json",
+      "bytes": 448,
+      "sha256": "85f3b1e45a783e26db4d5ff6700dc40c20993e18a8767cf6b1ffe448c8f8c77f"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/native_37500_regression.txt",
+      "bytes": 1327,
+      "sha256": "25190886eea98bcade1bf4a57d277b03e94ac7a85dcbf4898792d65e5e111495"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/natural_player_configs.json",
+      "bytes": 659389,
+      "sha256": "9aca1bd4c53850105d70c0858000cf6dde4aac5f611a5af81862434343b09d4c"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/reachability_independent_holdout.csv",
+      "bytes": 437693,
+      "sha256": "c7a475fcd0d5cb76f5489262aff14008d5c4eb2386602c88752c6f5f6fe08092"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/reachability_independent_summary.csv",
+      "bytes": 2597,
+      "sha256": "4aae0ca87c7ab8a2886e57cd011db07d8ae78aa728e7bcc90332f9384bd19cb0"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/role_count_holdout.csv",
+      "bytes": 12664,
+      "sha256": "2320c95737ffe81546c7d6bd8e4aa74aeb800b1c063a0e65ce23a8c9aa29dae5"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/role_count_order_scan.csv",
+      "bytes": 342693,
+      "sha256": "c14ced7e92341a0fbfca7b1eeb3254f29e49f5617b097c7fc6fbbc07e5973afa"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/selected_stat_profile.json",
+      "bytes": 5890,
+      "sha256": "5f9fee342cf8dae18139a797a555dc8e7afe57b415c996e1021c828f2663ee80"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/source_chain_audit.json",
+      "bytes": 1125,
+      "sha256": "16662d33412e9a3cbcb531bbac8576cb4438512d435a81c094553470d24bd023"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/source_rank35_reachability.csv",
+      "bytes": 3608,
+      "sha256": "2a319c6e619c4059a525c7e7beb43c20c2558aecf3fb1675130da9c1764418f3"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/source_reachability.csv.gz",
+      "bytes": 644082,
+      "sha256": "b6914a6011e1b0c2edee891f27096a0ac017ad8cb3f172c612f45f6b690ccfbb"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/source_reachability_summary.csv",
+      "bytes": 63086,
+      "sha256": "f09893d34f810a18cb6bea3d08e0dad997d7e32d085fc4d0aceddb30b9233575"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/source_stat_distribution.csv",
+      "bytes": 1731,
+      "sha256": "10cde70a6382213d77eed9a669bad1932d01fd00f178fe0f7f4cdf9ecab14809"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stat_optimization_training.csv",
+      "bytes": 102358,
+      "sha256": "5461bb42132638bb5507b2732988dd91e949f34bb7e75a78f1336aae86108e2e"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/stat_partial_derivatives.csv",
+      "bytes": 251413,
+      "sha256": "7b735f12678c528aa2c05833a65023baf5ec92d836a7563223551ace06c53c28"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/tuned_reachability.csv.gz",
+      "bytes": 821904,
+      "sha256": "367ea3d258e442d5a381c1b72d5a598ddd726d00dc350e19e0b5408cad185835"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/tuned_reachability_summary.csv",
+      "bytes": 57114,
+      "sha256": "5c2241c16cbdb61f1e333969b85812277fbdb7c2964a9872a842ba86446d2b42"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/run_natural.py",
+      "bytes": 18550,
+      "sha256": "ba5f90d8f83a038df1dd6d791b3f7413c1f85e77f1dc63853bc9fe6d5195f64b"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/save_checkpoint.py",
+      "bytes": 4728,
+      "sha256": "c526fda9773b2eafbb3412e3735a87f8b0368424b9938bcd885609fab4f2d1b2"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/source_snapshots/SkillGenerator_before.cs",
+      "bytes": 130810,
+      "sha256": "91cd734aa1c338049eae7a256b5a6345f85aee4aa16846d43e01385a58844346"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/source_snapshots/SkillGenerator_checkpoint.cs",
+      "bytes": 130971,
+      "sha256": "ee681ff826131bce54d122876f225da69d4b9e9863b0c7b4114e7bde43ba0c76"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/validate_natural.py",
+      "bytes": 3620,
+      "sha256": "cb84b39a8e9aa2c37faff4584baf3c0c503a5b4bb2a6332a3337c4c8a2da6055"
+    },
+    {
+      "path": "combat_numerical_paradigms/roster_research/build_report.py",
+      "bytes": 25287,
+      "sha256": "9ed146b054cae6b184d9ca7b096d8d5b92679025656bf5501fc6e61e83995ab8"
+    },
+    {
+      "path": "combat_numerical_paradigms/roster_research/delivery_validation.py",
+      "bytes": 11106,
+      "sha256": "4a7001b7d012d3686535e900e2c01458b9c64811debb5ef5af3423a1eb23eb1d"
+    },
+    {
+      "path": "combat_numerical_paradigms/roster_research/DESIGN_SPECIFICATION.md",
+      "bytes": 15766,
+      "sha256": "ee1851c57d23d43796b73c9f95ab69c6055cd0cee1c62e5deddf1ec3fae60842"
+    },
+    {
+      "path": "combat_numerical_paradigms/roster_research/equipment_study.py",
+      "bytes": 12601,
+      "sha256": "30003e5ffc9c6c44fef8ac2e111a9c21ef10af92029a83af1f875ab76dd66e61"
+    },
+    {
+      "path": "combat_numerical_paradigms/roster_research/final_checks.py",
+      "bytes": 16001,
+      "sha256": "eaba6b50209fafdb40deb1e2c2733d10c1037f85744e236dc26f4eab9c091cea"
+    },
+    {
+      "path": "combat_numerical_paradigms/roster_research/NEXT_RESEARCH_GUIDE.md",
+      "bytes": 6526,
+      "sha256": "6e34fbc18f9f83567ffbe102e16cb84534c222838435ee1ad32c73c2252bc71c"
+    },
+    {
+      "path": "combat_numerical_paradigms/roster_research/package_delivery.py",
+      "bytes": 5769,
+      "sha256": "2b3703e424139fe78560480f4d1bc256b685e72cf80b766c4dd40f22dd90a262"
+    },
+    {
+      "path": "combat_numerical_paradigms/roster_research/README.md",
+      "bytes": 3877,
+      "sha256": "4ac85236cba282225c541294b328cca5fa0892b34a9c81237f08e5e3fb839fa9"
+    },
+    {
+      "path": "combat_numerical_paradigms/roster_research/requirements.txt",
+      "bytes": 94,
+      "sha256": "4f5fbadbde4fd94927bfa5c34a04b0e244f20154cb949e3abf05e5b1fd5dde11"
+    },
+    {
+      "path": "combat_numerical_paradigms/roster_research/RESEARCH_CONTRACT.md",
+      "bytes": 3735,
+      "sha256": "4a6c6e0b35b652243c326353adfb45e2bdf7c166fad90a5c0e033144963970cd"
+    },
+    {
+      "path": "combat_numerical_paradigms/roster_research/results/common_operating_points.csv",
+      "bytes": 2387,
+      "sha256": "cbd986352779a9a7b8af6d7f1c8c7770687b1a1a27a1d9e66b9ce0d7e4db5f41"
+    },
+    {
+      "path": "combat_numerical_paradigms/roster_research/roster_core.py",
+      "bytes": 26107,
+      "sha256": "4692afaac934c51df1b1b457ee2c239c89b5121aea4bf65cea7e2602d2bd043a"
+    },
+    {
+      "path": "combat_numerical_paradigms/roster_research/run_all.ps1",
+      "bytes": 773,
+      "sha256": "8277d9f7feb0bcee65e4bc848c547b1683395e96a8fa4cb42ca826ba1108314d"
+    },
+    {
+      "path": "combat_numerical_paradigms/roster_research/run_study.py",
+      "bytes": 18935,
+      "sha256": "d39f7e9611f207847ed2f3fb96080c213f349cab7695fddc879c8817fc4f5b6a"
+    },
+    {
+      "path": "combat_numerical_paradigms/roster_research/stage_extensions.py",
+      "bytes": 11758,
+      "sha256": "2ff6123a3a9082f6374fe256ec3e2d194dfadb739aa8d928e7db54a154a3d5cb"
+    },
+    {
+      "path": "generate_skills_preview.py",
+      "bytes": 19050,
+      "sha256": "6105be7d1172a21efd6ad419ad877d4a33db48a17e851eec70988f367adf5a0c"
+    },
+    {
+      "path": "skill_affixes.txt",
+      "bytes": 9302,
+      "sha256": "8ba07d2b42548a4d0a8a16dc911430f655a90cf3cddc35cc202b1f75c5499f85"
+    },
+    {
+      "path": "SkillGenerator.cs",
+      "bytes": 130971,
+      "sha256": "ee681ff826131bce54d122876f225da69d4b9e9863b0c7b4114e7bde43ba0c76"
+    },
+    {
+      "path": "test_30man_combat_simulator.py",
+      "bytes": 21427,
+      "sha256": "d82477b368cea5994053bcee99a618d560135e6a5195926afe26f78aa91ba75e"
+    }
+  ]
+}

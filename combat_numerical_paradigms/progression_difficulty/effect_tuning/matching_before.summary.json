@@ -1,0 +1,75 @@
+{
+  "samples": 24000,
+  "families_used": 63,
+  "families_available": 63,
+  "variants_used": 376,
+  "variants_available": 467,
+  "invalid": 0,
+  "top5_share": 0.3305,
+  "family_entropy": 5.205683931604535,
+  "colors": {
+    "red": 4648,
+    "violet": 7274,
+    "white": 1346,
+    "yellow": 4053,
+    "blue": 3297,
+    "orange": 1443,
+    "green": 1312,
+    "pink": 118,
+    "black": 424,
+    "rainbow": 85
+  },
+  "unused": [],
+  "top": [
+    {
+      "key": "fx2_slash",
+      "title": "刀剑圆斩",
+      "count": 2156
+    },
+    {
+      "key": "fanfx1_spellcast_A",
+      "title": "禁锢波纹眩晕星星",
+      "count": 2139
+    },
+    {
+      "key": "impfx1_toon_impact_B",
+      "title": "要害刺状闪光",
+      "count": 1501
+    },
+    {
+      "key": "impfx1_quick_impact_B",
+      "title": "极速锐芒闪光",
+      "count": 1071
+    },
+    {
+      "key": "fx3_impact_hit",
+      "title": "重钧圆环打击",
+      "count": 1065
+    },
+    {
+      "key": "fanfx2_claw",
+      "title": "流光裂空爪斩",
+      "count": 835
+    },
+    {
+      "key": "fx3_bite",
+      "title": "狂暴利齿咬合",
+      "count": 827
+    },
+    {
+      "key": "impfx1_quick_impact_C",
+      "title": "寒芒冰晶闪光",
+      "count": 765
+    },
+    {
+      "key": "fx3_magic_spawn",
+      "title": "秘法聚合闪光",
+      "count": 739
+    },
+    {
+      "key": "fanfx1_magic_burst_A",
+      "title": "奥术星星爆裂",
+      "count": 739
+    }
+  ]
+}

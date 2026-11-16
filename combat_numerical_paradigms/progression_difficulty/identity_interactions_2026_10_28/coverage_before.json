@@ -1,0 +1,220 @@
+{
+  "source_sha256": "be3a2dea739a5a8a03a7f733b14b9d43c69e12f5ffc480407dc615bb093217e3",
+  "all_profiles": {
+    "5": {
+      "cases": 560,
+      "actions": 10830,
+      "positive_actions": {
+        "maid": 4342,
+        "farmer": 2606
+      },
+      "cast_identities": {
+        "女仆": 4342,
+        "农民": 2606,
+        "冒险者": 3882
+      },
+      "positive_cases": {
+        "maid": 320,
+        "farmer": 229
+      }
+    },
+    "10": {
+      "cases": 560,
+      "actions": 11589,
+      "positive_actions": {
+        "maid": 5062,
+        "farmer": 2781
+      },
+      "cast_identities": {
+        "女仆": 5062,
+        "农民": 2781,
+        "冒险者": 3746
+      },
+      "positive_cases": {
+        "maid": 320,
+        "farmer": 224
+      }
+    },
+    "15": {
+      "cases": 560,
+      "actions": 9842,
+      "positive_actions": {
+        "maid": 4619,
+        "farmer": 2251
+      },
+      "cast_identities": {
+        "女仆": 4619,
+        "农民": 2251,
+        "冒险者": 2972
+      },
+      "positive_cases": {
+        "maid": 320,
+        "farmer": 220
+      }
+    },
+    "20": {
+      "cases": 560,
+      "actions": 9726,
+      "positive_actions": {
+        "maid": 4128,
+        "farmer": 2719
+      },
+      "cast_identities": {
+        "女仆": 4128,
+        "农民": 2719,
+        "冒险者": 2879
+      },
+      "positive_cases": {
+        "maid": 320,
+        "farmer": 216
+      }
+    },
+    "25": {
+      "cases": 560,
+      "actions": 10063,
+      "positive_actions": {
+        "maid": 4463,
+        "farmer": 2807,
+        "absolute_dodge": 85
+      },
+      "cast_identities": {
+        "女仆": 4463,
+        "农民": 2807,
+        "冒险者": 2793
+      },
+      "positive_cases": {
+        "maid": 320,
+        "farmer": 224,
+        "absolute_dodge": 52
+      }
+    },
+    "30": {
+      "cases": 560,
+      "actions": 11194,
+      "positive_actions": {
+        "maid": 5219,
+        "farmer": 2729,
+        "absolute_dodge": 57
+      },
+      "cast_identities": {
+        "女仆": 5219,
+        "农民": 2729,
+        "冒险者": 3246
+      },
+      "positive_cases": {
+        "maid": 320,
+        "farmer": 220,
+        "absolute_dodge": 36
+      }
+    }
+  },
+  "mixed_profile": {
+    "5": {
+      "cases": 80,
+      "actions": 1012,
+      "positive_actions": {
+        "maid": 598,
+        "farmer": 179
+      },
+      "cast_identities": {
+        "女仆": 598,
+        "冒险者": 235,
+        "农民": 179
+      },
+      "positive_cases": {
+        "farmer": 71,
+        "maid": 80
+      }
+    },
+    "10": {
+      "cases": 80,
+      "actions": 1116,
+      "positive_actions": {
+        "maid": 760,
+        "farmer": 149
+      },
+      "cast_identities": {
+        "女仆": 760,
+        "农民": 149,
+        "冒险者": 207
+      },
+      "positive_cases": {
+        "farmer": 68,
+        "maid": 80
+      }
+    },
+    "15": {
+      "cases": 80,
+      "actions": 1142,
+      "positive_actions": {
+        "maid": 772,
+        "farmer": 163
+      },
+      "cast_identities": {
+        "女仆": 772,
+        "农民": 163,
+        "冒险者": 207
+      },
+      "positive_cases": {
+        "farmer": 66,
+        "maid": 80
+      }
+    },
+    "20": {
+      "cases": 80,
+      "actions": 1181,
+      "positive_actions": {
+        "maid": 852,
+        "farmer": 160
+      },
+      "cast_identities": {
+        "女仆": 852,
+        "冒险者": 169,
+        "农民": 160
+      },
+      "positive_cases": {
+        "maid": 80,
+        "farmer": 62
+      }
+    },
+    "25": {
+      "cases": 80,
+      "actions": 1371,
+      "positive_actions": {
+        "maid": 1135,
+        "absolute_dodge": 85,
+        "farmer": 115
+      },
+      "cast_identities": {
+        "女仆": 1135,
+        "农民": 115,
+        "冒险者": 121
+      },
+      "positive_cases": {
+        "absolute_dodge": 52,
+        "farmer": 70,
+        "maid": 80
+      }
+    },
+    "30": {
+      "cases": 80,
+      "actions": 1280,
+      "positive_actions": {
+        "maid": 1060,
+        "farmer": 104,
+        "absolute_dodge": 57
+      },
+      "cast_identities": {
+        "冒险者": 116,
+        "女仆": 1060,
+        "农民": 104
+      },
+      "positive_cases": {
+        "farmer": 65,
+        "maid": 80,
+        "absolute_dodge": 36
+      }
+    }
+  },
+  "interpretation": "Observed action hooks only. Zero action hooks do not imply passive opening effects are absent; no balance or optimal-order claim."
+}

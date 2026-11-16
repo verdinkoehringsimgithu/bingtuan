@@ -1,0 +1,352 @@
+{
+  "saved_at": "2026-10-13T12:12:48.752537+08:00",
+  "status": "guidance_model_delivered",
+  "reference_level_bands_are_design_inputs": true,
+  "files": [
+    {
+      "path": "combat_numerical_paradigms/01_COMBAT_CORE_MATHEMATICAL_MODEL.md",
+      "bytes": 8693,
+      "sha256": "b5f727c935388b2c5ae0baa24ad8cc0e29987715343e9af94203848f49e59429"
+    },
+    {
+      "path": "combat_numerical_paradigms/02_PROGRESSION_STAGES_AND_BUDGETS.md",
+      "bytes": 4648,
+      "sha256": "2e9b2cc368df5fb8dcec2be36bdc3e88ecd1aa5c3dd74252aaa2d85b28a13f1c"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/GeneratorBridge.cs",
+      "bytes": 1752,
+      "sha256": "b2580947f871cc57fb3d426af0640b2cf41c98bd6c4015d3c7c6ef305bd79714"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/export_catalog.ps1",
+      "bytes": 1355,
+      "sha256": "d3316119fc5b12d29ecc71bc76e9495e8bbf85e4ef13fb566ce71bd5f1dc869b"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/natural_core.py",
+      "bytes": 7545,
+      "sha256": "7ceeb0180e0f4876c451808572c680ee2b13e97f4f08d7e7ac770cc229a20fba"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/requirements.txt",
+      "bytes": 94,
+      "sha256": "4f5fbadbde4fd94927bfa5c34a04b0e244f20154cb949e3abf05e5b1fd5dde11"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/catalog_before.json",
+      "bytes": 5376353,
+      "sha256": "59fa281136520e648dd61a5dbd01f3c62ace3cf4ce90e4a281ba6e7dba57d8af"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/catalog_current.json",
+      "bytes": 5382263,
+      "sha256": "5b175b614157a408abbfbf82a79e3cdceddbbaa9c48ab00f1f08110922b42aab"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/catalog_final_test.json",
+      "bytes": 5381946,
+      "sha256": "d69c2c42ce00f3a239446664247d4e204dae4b5028a5c1d8e862c4de127c1562"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/catalog_growth_confirmation.json",
+      "bytes": 5385105,
+      "sha256": "01f48ebed1180a6ca8fd3109edea1ffc4e71271aada57b4968331ccc9448a2ce"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/catalog_holdout.json",
+      "bytes": 5378807,
+      "sha256": "c5f21e7b8586ba80b96d3aa746ac640f6f536552c8f30e9b8971f3d323a507b3"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/catalog_old_final_growth.json",
+      "bytes": 5376056,
+      "sha256": "5f4cf4a04dd4f764881008b95c7796a1c9e4dcea99d627ffc2aa7b384ae9030c"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/catalog_old_growth_confirmation.json",
+      "bytes": 5379197,
+      "sha256": "b4846266d346096aeb1e1d35af3ef8c2f298fde8e83fe36ca90827609105621b"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/catalog_old_validation_growth.json",
+      "bytes": 5372859,
+      "sha256": "8421b6bb61fb67c2eedecd9b6e670ce7672bafe29d6b78d0826e398b483c1eae"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/equipment_operating_candidates.csv",
+      "bytes": 5665,
+      "sha256": "1a6ee42d47d3abb8127af4d87cbc5c6659bde6b98a5543b92a61240389bd3af4"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/results/selected_stat_profile.json",
+      "bytes": 5890,
+      "sha256": "5f9fee342cf8dae18139a797a555dc8e7afe57b415c996e1021c828f2663ee80"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/run_natural.py",
+      "bytes": 21570,
+      "sha256": "d6e2216c9d268f939b062b70cd29b8af3fcb8abd6d0ed9d67b885f203aef96eb"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/source_snapshots/SkillGenerator_before.cs",
+      "bytes": 130810,
+      "sha256": "91cd734aa1c338049eae7a256b5a6345f85aee4aa16846d43e01385a58844346"
+    },
+    {
+      "path": "combat_numerical_paradigms/natural_research/source_snapshots/SkillGenerator_checkpoint.cs",
+      "bytes": 130971,
+      "sha256": "ee681ff826131bce54d122876f225da69d4b9e9863b0c7b4114e7bde43ba0c76"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/CHECKPOINT_2026-10-13.md",
+      "bytes": 3871,
+      "sha256": "9333bbbf09df17d2bf0cd2e1d197f729e53bd9c41011adc7e10d041cd9ecaf28"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/DESIGN_GUIDE.md",
+      "bytes": 17226,
+      "sha256": "e50f3b33669a4002edb4a4986dd4cabc4cab35bc816afebd8769e3265cefd381"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/README.md",
+      "bytes": 2186,
+      "sha256": "4e038decbf3cef4b5960afcc8fa6852ff0b6145669916fa0c794d7566b3b5e63"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/balanced_templates.py",
+      "bytes": 3862,
+      "sha256": "e1c4b71e08a489e6fe4063c48737e6050bd106de9c3f8f2834cb25939334dfc7"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/model.py",
+      "bytes": 2860,
+      "sha256": "07cd19d79ec7bf364ce320509c3a3d01bc2ad3718cb7c0a4051428b0bf3376b2"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/package.py",
+      "bytes": 3259,
+      "sha256": "2617ed3e1265275934170f3d93cbec76dbf7fa38e152b60ad9ed3cded1db73b2"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/refine_bands.py",
+      "bytes": 5402,
+      "sha256": "8c94919069348b7ae2fd39feb2e59bb73207393571638f33a69e429d84b22919"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/report.py",
+      "bytes": 16114,
+      "sha256": "83e561464dd0ad8a7a8e9798ada6677d8a4a2fc2a9a546ae407441faf6800a38"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/balanced_npc_bands.csv",
+      "bytes": 608836,
+      "sha256": "17cfddd7b26cbf44e4547fb964736af8ce764aa079347c3fc20e43cef4a4360d"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/balanced_npc_scan.csv",
+      "bytes": 3101730,
+      "sha256": "2ec3a6e80d7b4214f3dc645909ccc3ecb7654b334c5e4ea990c953078e9316e9"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/balanced_recommended_confirmation.csv",
+      "bytes": 581111,
+      "sha256": "0d210be99c44255476a53fd1f0d8b806d85d5386bf8238c626c1697f79d994df"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/balanced_recommended_templates.csv",
+      "bytes": 1586,
+      "sha256": "fd91decfceafdfda1e81aeb24af240bb088ff3fa851a419c222f5dd9506eff48"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/delivery_validation.json",
+      "bytes": 465,
+      "sha256": "00c19c5e5314e46532dd348b7e522bb9bc649217b19a3d7c19ee90a9b79f207c"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/designer_delivery_table.csv",
+      "bytes": 3444,
+      "sha256": "d4cc5c7ef1bcc7bac732de18fbd85b77405caa37353cd0c07c09637e48501962"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/difficulty_band_validation.csv",
+      "bytes": 1465938,
+      "sha256": "753fce3733804283f3b58d238757bbe4b95c80ea8d2fef1f5b69c342c9a408bf"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/difficulty_final_holdout.csv",
+      "bytes": 3436839,
+      "sha256": "7c6008f79fd9fdb54e9bd5b71c5f1ee2a452c9ba53c45489a5194667309bad66"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/difficulty_intervals.csv",
+      "bytes": 5577,
+      "sha256": "1ba200e191ce5e11519c6ec508acab0025a5dad51bad3277123410e4fec36d83"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/encounter_model.json",
+      "bytes": 76293,
+      "sha256": "3da51bfdd923ae7d642e81f042b1dee482722f72e2f0890b0a172056963d2bdc"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/enemy_screen.csv",
+      "bytes": 2763160,
+      "sha256": "47328c99010f52beef611b6cc2ea8bb8e79d408b1ab0aba7f7c27121c627ff4a"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/enemy_validation_refine.csv",
+      "bytes": 1827838,
+      "sha256": "19bb9d47842dcb224fc70ec14f7d2121d0014161311b4c7356a16bfb3078a76b"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/experiment_manifest.json",
+      "bytes": 202,
+      "sha256": "4feeb0c8453aa4e471b44ecb5b77529bdb5bc04504b7062145af75e76eef601b"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/figures/growth_and_preparation.png",
+      "bytes": 169627,
+      "sha256": "51966607589920b8dd28cafa350c2fdb405b64961781d0aeefdd60ffb6e08bd3"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/fine_band_validation.csv",
+      "bytes": 4426980,
+      "sha256": "7727eaf3a2d32f43acea4679e7bc1e98b8586c8c69fc9f4fb706e923c7dea774"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/fine_difficulty_holdout.csv",
+      "bytes": 1550230,
+      "sha256": "67afb9b0b8ae9a154d8fc886f423e8996ecfcfe8528e2bb3f6f5ebc58f048696"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/fine_difficulty_intervals.csv",
+      "bytes": 5686,
+      "sha256": "60ed98680260ee4f9c294499c5e79e311c8e8bbc0d0c33df4cd2110249098abc"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/growth_budget_table.csv",
+      "bytes": 14862,
+      "sha256": "5dceb35dbad840ac6fe6051a0ea12a7b27c2192a4649fde9da921aecc65a9f98"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/growth_curve_sensitivity.csv",
+      "bytes": 1782470,
+      "sha256": "bfca872bec0c31f2edfa6060823e2f92e9495b296906812cc83318bc6229f2e5"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/growth_robustness_summary.csv",
+      "bytes": 265,
+      "sha256": "8ec71bee21a053ba7d4baa3385f0b5812c409d5a2ef86960a4e13d441616eec6"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/growth_validation.json",
+      "bytes": 476,
+      "sha256": "52dec1b9904c65bb8ac9bd77b26029db5adef4142e9ab1010772ee806be3f347"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/individual_growth_samples.csv.gz",
+      "bytes": 963744,
+      "sha256": "669b7182965bf3cc6f6bea28ce78f808714052ec7bd23788afb688cfe71cb469"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/npc_balance_generality_comparison.csv",
+      "bytes": 613,
+      "sha256": "5a585dfb37080cc8e2a661869fde7db33483b2938912dad860c4286d4bb65268"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/npc_reference_four_stats.csv",
+      "bytes": 2252,
+      "sha256": "31826e604ce340a03d289cf4fe10c0a957511c1419228fcfd94eaaeb962aee0f"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/recommended_confirmation.csv",
+      "bytes": 573639,
+      "sha256": "3194cf0204492ae4a05ca37dba21b7a7eabee43acdd3bb2dece3c792058646c2"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/recommended_level_budget.csv",
+      "bytes": 527,
+      "sha256": "926c28b91456e1ad470a351b6e810bccee5d5ee5358343b0306da620a828bd9f"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/recommended_profile_ranges.csv",
+      "bytes": 29124,
+      "sha256": "8ccbe46853d8bec1ad8022ad156041b39b5e19eb9f93a4aa6cd929e2f945e3ee"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/recommended_templates.csv",
+      "bytes": 1047,
+      "sha256": "8f69b72752a1e45fcc4f07a9e734eb140778146215ddd6d778c48208e0736a5c"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/refined_anchors.csv",
+      "bytes": 6051,
+      "sha256": "962b579b94b353875166a9e131c6efd50181544213437eb9ad040b14aad45115"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/screen_anchors.csv",
+      "bytes": 5038,
+      "sha256": "955dcaeb13f84f90d32d393e9b534193b96cc7f97eedfa7cc51783784a579c5f"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/settings.json",
+      "bytes": 839,
+      "sha256": "d5aff3577cf63ccb236f64b566f2899b82de17f344394c27586c043340684167"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/standard_reference_summary.csv",
+      "bytes": 1560,
+      "sha256": "4a29f6ee60c2e1b2c28fcf811ef1b31846a5285628a91f9b30b563ff20c09db5"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/results/validation.json",
+      "bytes": 274,
+      "sha256": "9d02e362c006475994a2e979b245ecbf0ace89d215841b7f02e2a459473034b5"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/run_all.ps1",
+      "bytes": 1677,
+      "sha256": "7de49b3dd100793e68ef9d05482efb78052cfb9354902d35f4512a15ebd75f4c"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/study.py",
+      "bytes": 13467,
+      "sha256": "84b90bb1cba36f99a8789277580335895761dc6fb12d591ee7801f88adc5be0b"
+    },
+    {
+      "path": "combat_numerical_paradigms/progression_difficulty/validate.py",
+      "bytes": 3089,
+      "sha256": "5ffe08de3f4c3571fa5a47c74143552b848ef1079ef80bb6b901aa9773813def"
+    },
+    {
+      "path": "combat_numerical_paradigms/roster_research/equipment_study.py",
+      "bytes": 12601,
+      "sha256": "30003e5ffc9c6c44fef8ac2e111a9c21ef10af92029a83af1f875ab76dd66e61"
+    },
+    {
+      "path": "combat_numerical_paradigms/roster_research/roster_core.py",
+      "bytes": 26107,
+      "sha256": "4692afaac934c51df1b1b457ee2c239c89b5121aea4bf65cea7e2602d2bd043a"
+    },
+    {
+      "path": "combat_numerical_paradigms/roster_research/run_study.py",
+      "bytes": 18935,
+      "sha256": "d39f7e9611f207847ed2f3fb96080c213f349cab7695fddc879c8817fc4f5b6a"
+    },
+    {
+      "path": "generate_skills_preview.py",
+      "bytes": 19050,
+      "sha256": "6105be7d1172a21efd6ad419ad877d4a33db48a17e851eec70988f367adf5a0c"
+    },
+    {
+      "path": "skill_affixes.txt",
+      "bytes": 9302,
+      "sha256": "8ba07d2b42548a4d0a8a16dc911430f655a90cf3cddc35cc202b1f75c5499f85"
+    },
+    {
+      "path": "test_30man_combat_simulator.py",
+      "bytes": 21427,
+      "sha256": "d82477b368cea5994053bcee99a618d560135e6a5195926afe26f78aa91ba75e"
+    }
+  ]
+}

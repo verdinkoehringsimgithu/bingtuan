@@ -1,0 +1,7 @@
+# Preserve exact bytes: frozen research snapshots are SHA-256 verified.
+* -text
+*.png binary
+*.jpg binary
+*.gif binary
+*.exe binary
+*.part* binary
